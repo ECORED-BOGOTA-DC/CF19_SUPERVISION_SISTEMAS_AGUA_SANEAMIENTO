@@ -5,7 +5,9 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Titulo de primer nivel
+      h1 Análisis de muestras de agua potable
+    
+  
 
 </template>
 
@@ -13,7 +15,8 @@
 export default {
   name: 'Tema2',
   data: () => ({
-    // variables de vue
+    mostrarIndicador: true,
+    mostrarIndicador2: true,
   }),
   mounted() {
     this.$nextTick(() => {
@@ -25,5 +28,4 @@ export default {
   },
 }
 </script>
-
 <style lang="sass"></style>

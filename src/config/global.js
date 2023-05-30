@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Disposición final de residuos',
+    descripcionCurso:
+      'La última fase  con los residuos sólidos es conocida como la disposición final, considerada en la gestión integral; en el caso que deba recurrirse a esta metodología debe realizarse con base en parámetros técnicos, de seguridad y salud en el trabajo acordes con la normatividad legal vigente.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,14 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
       },
     ],
   },
@@ -31,28 +40,73 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Manejo de información de residuos',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Técnicas de registro de datos',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Manejo de insumos e inventarios',
+            hash: 't_1_2',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Impactos ambientales',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo:
+              'Identificación de aspectos e impactos asociados a la disposición final',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Evaluación del impacto ambiental',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Medidas de mitigación y control',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Técnicas de disposición final',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Elementos de seguridad y salud en el trabajo requeridos',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo:
+              'Estrategias de disposición final de residuos no peligrosos',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Estrategias de disposición final de residuos peligrosos',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Planes de manejo ambiental',
+            hash: 't_3_4',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -102,31 +156,182 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: '2.Impactos ambientales',
+      referencia:
+        'Alcaldía Mayor de Bogotá. (2009). Guía técnica para la elaboración de Planes de Manejo Ambiental (PMA).',
+      tipo: 'Guía técnica',
+      link: 'https://oab.ambientebogota.gov.co/?post_type=dlm_download&p=3825',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '2.Impactos ambientales',
+      referencia:
+        'Decreto 1220 de 2005. [Presidencia de la República de Colombia]. Por el cual se reglamenta el Título VIII de la Ley 99 de 1993 sobre licencias ambientales. Abril 21 de 2005.',
+      tipo: 'Documento',
+      link: 'https://www.icbf.gov.co/cargues/avance/docs/decreto_1220_2005.htm',
+    },
+    {
+      tema: '1.Manejo de información de residuos',
+      referencia:
+        'Decreto 1784. [Ministerio de Vivienda, Ciudad y Territorio]. Por la cual se reglamenta el Decreto 1784 del 2 de noviembre de 2017 en lo relativo a las actividades complementarias de tratamiento y disposición final de residuos sólidos en el servicio público de aseo. Noviembre 2 2017.',
+      tipo: 'Normatividad',
+      link:
+        'https://www.minvivienda.gov.co/tramites-y-servicios/consultas-publicas/por-la-cual-se-reglamenta-el-decreto-1784-del-2-de-noviembre-de-2017-en-lo-relativo-las-actividades-complementarias-de-tratamiento-y-disposicion-final',
+    },
+    {
+      tema: '3.Técnicas de disposición Final',
+      referencia:
+        'Dirección de Prevención y Atención de Emergencias DPAE. (2009). Guía para elaborar planes de emergencia y contingencias. DPAE.',
+      tipo: 'Guía',
+      link:
+        'https://bibliotecadigital.ccb.org.co/bitstream/handle/11520/14249/Gu%c3%ada%20para%20elaborar%20planes%20de%20emergencia.pdf?sequence=1&isAllowed=y',
+    },
+    {
+      tema: '2.Impactos ambientales',
+      referencia:
+        'Ministerio del Ambiente Perú. (2012). Guía para el diseño, construcción, operación, mantenimiento y monitoreo de relleno sanitario mecanizado. MINAM.',
+      tipo: 'Guía',
+      link:
+        'https://sinia.minam.gob.pe/documentos/guia-diseno-construccion-operacion-mantenimiento-monitoreo-relleno',
+    },
+    {
+      tema: '3.Técnicas de disposición Final',
+      referencia:
+        'Ministerio de Ambiente, Vivienda y Desarrollo Territorial. (2007). Gestión integral de residuos o desechos peligrosos. Bases conceptuales. Dirección de desarrollo sectorial sostenible.',
+      tipo: 'Documento',
+      link:
+        'https://www.corpamag.gov.co/archivos/tramites/RESPEL/Gestion_Integral_RESPEL_Bases_Conceptuales.pdf',
+    },
+    {
+      tema: 'Introducción',
+      referencia:
+        'El Tiempo (2022). Alerta sanitaria y ambiental en rellenos sanitarios del país [video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=1d5wV3apgxw&ab_channel=ELTIEMPO',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Amenaza',
+      significado:
+        'condición latente derivada de la posible ocurrencia de un fenómeno físico de origen natural, socionatural o antrópico no intencional, que puede causar daño a la población y sus bienes, a la infraestructura, al ambiente y a la economía pública y privada. Es un factor de riesgo externo (DPAE, 2009).',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Celda',
+      significado:
+        'es uno de los elementos de la infraestructura del relleno sanitario donde se descargan, distribuyen y compactan los residuos sólidos, de acuerdo con los diseños y el reglamento operativo adoptado por la persona prestadora de la actividad de disposición final (Resolución 1784 de 2017).',
+    },
+    {
+      termino: 'Centro de acopio',
+      significado:
+        'son las instalaciones de almacenamiento transitorio de residuos en los que, una vez realizada la separación en la fuente, se almacenan, seleccionan y/o acondicionan para facilitar su aprovechamiento, tratamiento o recolección selectiva. El acondicionamiento de un lugar de acopio permite que los procesos de separación y almacenamiento de residuos sólidos sean más eficaces. De esta forma se logra aumentar las cantidades de material reciclable y por tanto, disminuir los residuos ordinarios entregados para disposición en el relleno sanitario (Instituto Colombiano de Normas Técnicas y Certificación, GTC 24).',
+    },
+    {
+      termino: 'Disposición final de residuos sólidos',
+      significado:
+        'es el proceso de aislar y confinar los residuos sólidos en especial los no aprovechables, en forma definitiva, en lugares especialmente seleccionados y diseñados para evitar la contaminación, y los daños o riesgos a la salud humana y al ambiente (Decreto 1077 de 2015).',
+    },
+    {
+      termino: 'Emergencia',
+      significado:
+        'todo evento identificable en el tiempo, que produce un estado de perturbación funcional en el sistema, por la ocurrencia de un evento indeseable, que en su momento exige una respuesta mayor a la establecida mediante los recursos normalmente disponibles, produciendo una modificación sustancial pero temporal, sobre el sistema involucrado, el cual compromete a la comunidad o al ambiente, alterando los servicios e impidiendo el normal desarrollo de las actividades esenciales (DPAE, 2009).',
+    },
+    {
+      termino: 'Incidente',
+      significado:
+        'suceso de causa natural o por actividad humana que requiere la acción de personal de servicios de emergencias para proteger vidas, bienes y ambiente (DPAE, 2009).',
+    },
+    {
+      termino: 'Lixiviado',
+      significado:
+        'es el líquido residual generado por la descomposición biológica de la parte orgánica o biodegradable de los residuos sólidos, está compuesto por el agua proveniente de precipitaciones pluviales, humedad de la basura y descomposición de la materia orgánica que arrastra materiales disueltos y suspendidos (Ministerio de Vivienda, 2017).',
+    },
+    {
+      termino: 'Nivel freático',
+      significado:
+        'profundidad a la que se encuentran las aguas freáticas. Este nivel baja en tiempo de estiaje y sube en etapa de lluvias (Viceministerio de agua potable y saneamiento básico de Bolivia, 2012).',
+    },
+    {
+      termino: 'Relleno sanitario',
+      significado:
+        'lugar técnicamente seleccionado, diseñado y operado para el confinamiento de los residuos sólidos municipales. Comprende el esparcimiento, acomodo y compactación de los residuos, su cobertura con tierra u otro material inerte, por lo menos diariamente, permite el control de los gases, lixiviados y la proliferación de vectores, a fin de evitar la contaminación del ambiente y proteger la salud de la población (Ministerio de vivienda, 2017).',
+    },
+    {
+      termino: 'Riesgo',
+      significado:
+        'el daño potencial que sobre la población y sus bienes, la infraestructura, el ambiente y la economía pública y privada pueda causarse por la ocurrencia de amenazas de origen natural, socionatural o antrópico no intencional, que se extiende más allá de los espacios privados o actividades particulares de las personas y organizaciones, y que por su magnitud, velocidad y contingencia hace necesario un proceso de gestión que involucre al Estado y a la sociedad (DPAE, 2009).',
+    },
+    {
+      termino: 'Talud',
+      significado:
+        'inclinación de un dique, terraplén o desmonte (Viceministerio de agua potable y saneamiento básico de Bolivia, 2012).',
+    },
+    {
+      termino: 'Transferencia',
+      significado:
+        'es la actividad de trasladar los residuos sólidos de un vehículo a otro por medios mecánicos, evitando el contacto manual y el esparcimiento de los residuos (Ministerio de vivienda, 2017).',
+    },
+    {
+      termino: 'Vulnerabilidad',
+      significado:
+        'característica propia de un elemento o grupo de elementos expuestos a una amenaza, relacionada con su incapacidad física, económica, política o social de anticipar, resistir y recuperarse del daño sufrido cuando opera esa amenaza. Es un factor de riesgo interno.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Alcaldía Mayor de Bogotá. (2009). Guía técnica para la elaboración de Planes de Manejo Ambiental PMA. Alcaldía Mayor de Bogotá.',
+      link:
+        'Corantioquia. (s.f.). Metodologías para la identificación y evaluación de impactos ambientales. Corantioquia.',
+    },
+    {
+      referencia:
+        'Decreto 1784. [Ministerio de Vivienda, Ciudad y Territorio]. Por la cual se reglamenta el Decreto 1784 del 2 de noviembre de 2017 en lo relativo a las actividades complementarias de tratamiento y disposición final de residuos sólidos en el servicio público de aseo. Noviembre 2 de 2017.',
+      link:
+        'https://www.minvivienda.gov.co/tramites-y-servicios/consultas-publicas/por-la-cual-se-reglamenta-el-decreto-1784-del-2-de-noviembre-de-2017-en-lo-relativo-las-actividades-complementarias-de-tratamiento-y-disposicion-final',
+    },
+    {
+      referencia:
+        'Decreto 1220 de 2005. [Presidencia de la República de Colombia]. Por el cual se reglamenta el Título VIII de la Ley 99 de 1993 sobre licencias ambientales. Abril 21 de 2005.',
+      link: 'https://www.icbf.gov.co/cargues/avance/docs/decreto_1220_2005.htm',
+    },
+    {
+      referencia:
+        'Decreto 838 de 2005. [Presidencia de la República de Colombia].. Por el cual se modifica el Decreto 1713 de 2002 sobre disposición final de residuos sólidos y se dictan otras disposiciones. Marzo 23 de 2005.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=16123',
+    },
+    {
+      referencia:
+        'Dirección de Prevención y Atención de Emergencias DPAE. (2009). Guía para elaborar planes de emergencia y contingencias. DPAE.',
+      link:
+        'https://bibliotecadigital.ccb.org.co/bitstream/handle/11520/14249/Gu%c3%ada%20para%20elaborar%20planes%20de%20emergencia.pdf?sequence=1&isAllowed=y',
+    },
+    {
+      referencia:
+        'Ministerio de Ambiente, Vivienda y Desarrollo Territorial. (2007). Gestión integral de residuos o desechos peligrosos. Bases conceptuales. Dirección de desarrollo sectorial sostenible.',
+      link:
+        'https://www.corpamag.gov.co/archivos/tramites/RESPEL/Gestion_Integral_RESPEL_Bases_Conceptuales.pdf',
+    },
+    {
+      referencia:
+        'Ministerio del Ambiente Perú. (2012). Guía para el diseño, construcción, operación, mantenimiento y monitoreo de relleno sanitario mecanizado. MINAM.',
+      link:
+        'https://sinia.minam.gob.pe/documentos/guia-diseno-construccion-operacion-mantenimiento-monitoreo-relleno',
+    },
+    {
+      referencia:
+        'Ministerio de Ambiente, Vivienda y Desarrollo Territorial. (2007). Gestión integral de residuos o desechos peligrosos. Bases conceptuales. Dirección de desarrollo sectorial sostenible.',
+      link:
+        'https://www.corpamag.gov.co/archivos/tramites/RESPEL/Gestion_Integral_RESPEL_Bases_Conceptuales.pdf',
+    },
+    {
+      referencia:
+        'Senado de Colombia. (2017). Alerta sanitaria y ambiental en rellenos sanitarios del país [video]. YouTube.',
+      link: 'https://www.youtube.com/watch?v=k8BouGzKtqA',
+    },
+    {
+      referencia:
+        'Superintendencia de Servicios Públicos Domiciliarios. (2016). Disposición final de residuos sólidos informe nacional 2015. Superintendencia de Servicios Públicos Domiciliarios.',
       link: '',
     },
   ],
