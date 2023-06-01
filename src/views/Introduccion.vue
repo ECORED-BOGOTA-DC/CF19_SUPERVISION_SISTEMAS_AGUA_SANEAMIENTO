@@ -61,7 +61,7 @@
                 h4.mb-1.text-white Alarmantes cifras en Colombia por los rellenos sanitarios
                 p.text-small.text-white Para ampliar la información se invita a observar el siguiente video:
               .col-sm-auto
-                a.boton.color-primario(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+                a.boton.color-primario(href="https://www.youtube.com/watch?v=1d5wV3apgxw&ab_channel=ELTIEMPO" target="_blank")
                   span(style="color:#12263F !important;") Ir a página
                   i.fas.fa-link(style="color:#12263F !important;")
     

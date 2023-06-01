@@ -87,6 +87,7 @@ export default {
   background: rgb(222,222,222)
   background: linear-gradient(180deg, rgba(222,222,222,1) 0%, rgba(255,255,255,1) 50%, rgba(222,222,222,1) 100%)
   border-radius: 10px
+  box-shadow: 0px 0px 10px 5px rgba(0,0,0,.095)
 .cont_gradiente1, .cont_gradiente1 *
   position: relative
 .cont_gradiente1:before
@@ -110,6 +111,67 @@ export default {
   left: -15%
   top: 0
   background: url(./assets/curso/intro1.png)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+.cajon.cajon1:before
+  background-color: #12263F !important
+.subtitulo_cf
+  width: fit-content
+  background-color: #3076B6
+  border-radius: 0px 29px 0px 29px
+  margin-top: 5rem
+  color: #fff
+  text-align: center
+  padding: 1rem
+  padding-left: 1.5rem
+  padding-right: 1.5rem
+.cont_gradiente3, .cont_gradiente3 *
+  position: relative
+.cont_gradiente3:before
+  content: ''
+  position: absolute
+  width: 125%
+  height: 100%
+  left: -15%
+  top: 0
+  background: url(./assets/curso/intro8.png)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+.cont_1, .cont_1 *
+  position: relative
+.cont_1:before
+  content: ''
+  position: absolute
+  width: 125%
+  height: 100%
+  left: -15%
+  top: 0
+  background-color: #F0FBFF
+.cont_gradiente4, .cont_gradiente4 *
+  position: relative
+.cont_gradiente4:before
+  content: ''
+  position: absolute
+  width: 125%
+  height: 100%
+  left: -15%
+  top: 0
+  background: url(./assets/curso/tema2/11.png)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+.cont_gradiente5, .cont_gradiente5 *
+  position: relative
+.cont_gradiente5:before
+  content: ''
+  position: absolute
+  width: 125%
+  height: 100%
+  left: -15%
+  top: 0
+  background: url(./assets/curso/tema2/15.png)
   background-repeat: no-repeat
   background-size: cover
   background-position: center
