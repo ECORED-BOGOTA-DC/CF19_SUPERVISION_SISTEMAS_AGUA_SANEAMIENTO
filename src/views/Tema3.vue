@@ -340,13 +340,264 @@
         .cajon.cajon1.color-primario.p-4(style="background-color:#F6F6F6;")
           p.mb-0(data-aos="fade-up") Un PMA es el conjunto detallado de actividades, que producto de una evaluación ambiental, están orientadas a prevenir, mitigar, corregir o compensar los impactos y efectos ambientales que se causen por el desarrollo de un proyecto, obra o actividad. Incluye los planes de seguimiento, monitoreo, contingencia y abandono según la naturaleza del proyecto, obra o actividad (p. 2).
         p.mt-4(data-aos="fade-up") La complejidad de un PMA la define la extensión y el tipo de proyecto a desarrollar, por ello, no existe un estándar exacto que involucre las variables que se deben contemplar para un PMA; sin embargo, a manera general se podría establecer los siguientes pasos metodológicos mínimos para desarrollarlo:
+    
+    .cont_gradiente3.mt-5
+      .col-lg-10.m-auto
+        PasosA.color-primario.mb-5(tipo="n")
+          .row
+            .col-lg-2.col-md-4.mb-4.mb-md-0(style="place-self:center;")
+              figure.text-center
+                img(src='@/assets/curso/tema3/32.svg' data-aos="fade-right" style="max-width:80px;display:inline;")
+            .col-lg-10.col-md-8(style="place-self:center;")
+              div(data-aos="fade-left")
+                h5 Datos generales de la organización
+                p Toda la información que identifique totalmente quién va a planear y a implementar el PMA.
+          .row
+            .col-lg-10.col-md-8.mb-4.mb-md-0(style="place-self:center;")
+              .text-start(data-aos="fade-right")
+                h5 Disponer de su ficha de datos de seguridad (FDS) u hoja de seguridad
+                p Es una síntesis del trabajo, su objetivo es permitir que el lector tenga una visión general del documento. Describe las actividades a ejecutar y los resultados esperados, prestando particular atención a las medidas formuladas para mitigar o eliminar los impactos ambientales negativos que la actividad puede causar sobre el medio ambiente y la comunidad; también describe los programas de implementación y cronogramas correspondientes (Alcaldía Mayor de Bogotá, 2009).
+            .col-lg-2.col-md-4(style="place-self:center;")
+              figure.text-center
+                img(src='@/assets/curso/tema3/33.svg' data-aos="fade-left" style="max-width:80px;display:inline;")
+          .row
+            .col-lg-2.col-md-4.mb-4.mb-md-0(style="place-self:center;")
+              figure.text-center
+                img(src='@/assets/curso/tema3/34.svg' data-aos="fade-right" style="max-width:80px;display:inline;")
+            .col-lg-10.col-md-8(style="place-self:center;")
+              div(data-aos="fade-left")
+                h5 Marco legal
+                p Incluir toda la base legal que sustente el plan de manejo, citando los artículos o partes que deben ser aplicados en la obra o proyecto, esto es de vital importancia para toda la organización, pues es la base legal la que brinda la amplitud, extensión y rigurosidad de los programas que se planteen.
+          .row
+            .col-lg-10.col-md-8.mb-4.mb-md-0(style="place-self:center;")
+              .text-start(data-aos="fade-right")
+                h5 Objetivos
+                p Teniendo en cuenta que el PMA busca eliminar o mitigar progresivamente en plazos racionales los impactos ambientales negativos causados por una actividad en desarrollo, aplicando prioritariamente actividades de prevención de la contaminación, por ello se debe establecer objetivos claros, medibles y verificables que den respuesta real a los impactos esperados.
+            .col-lg-2.col-md-4(style="place-self:center;")
+              figure.text-center
+                img(src='@/assets/curso/tema3/35.svg' data-aos="fade-left" style="max-width:80px;display:inline;")
+          .row
+            .col-lg-2.col-md-4.mb-4.mb-md-0(style="place-self:center;")
+              figure.text-center
+                img(src='@/assets/curso/tema3/36.svg' data-aos="fade-right" style="max-width:80px;display:inline;")
+            .col-lg-10.col-md-8(style="place-self:center;")
+              div(data-aos="fade-left")
+                h5 Política ambiental
+                p Una política que esté encaminada a ser la base del compromiso organizacional de cumplimiento de los lineamientos ambientales usualmente debe estar acompañada de objetivos ambientales que puedan ser medidos.
+          .row
+            .col-lg-10.col-md-8.mb-4.mb-md-0(style="place-self:center;")
+              .text-start(data-aos="fade-right")
+                h5 Descripción del área de influencia
+                p La zona de influencia se delimitará con respecto a la ubicación y amplitud de los componentes ambientales con los que el proyecto tendrá alguna interacción.
+            .col-lg-2.col-md-4(style="place-self:center;")
+              figure.text-center
+                img(src='@/assets/curso/tema3/37.svg' data-aos="fade-left" style="max-width:80px;display:inline;")
+          .row
+            .col-lg-2.col-md-4.mb-4.mb-md-0(style="place-self:center;")
+              figure.text-center
+                img(src='@/assets/curso/tema3/38.svg' data-aos="fade-right" style="max-width:80px;display:inline;")
+            .col-lg-10.col-md-8(style="place-self:center;")
+              div(data-aos="fade-left")
+                h5 Identificación y evaluación de impactos y riesgos
+                p Usar metodologías de evaluación que logren determinar o categorizar tanto los impactos como los riesgos más relevantes y de mayor importancia.
+          .row
+            .col-lg-10.col-md-8.mb-4.mb-md-0(style="place-self:center;")
+              .text-start(data-aos="fade-right")
+                h5 Sistema de indicadores
+                p Los indicadores corresponden a parámetros e índices que permiten evaluar la calidad de los principales elementos ambientales afectados por las actividades humanas, así como sobre la cantidad y calidad de recursos naturales seleccionados (Alcaldía Mayor de Bogotá, 2009, p. 20).
+            .col-lg-2.col-md-4(style="place-self:center;")
+              figure.text-center
+                img(src='@/assets/curso/tema3/39.svg' data-aos="fade-left" style="max-width:80px;display:inline;")
+          .row
+            .col-lg-2.col-md-4.mb-4.mb-md-0(style="place-self:center;")
+              figure.text-center
+                img(src='@/assets/curso/tema3/40.svg' data-aos="fade-right" style="max-width:80px;display:inline;")
+            .col-lg-10.col-md-8(style="place-self:center;")
+              div(data-aos="fade-left")
+                h5 Programas
+                p Definir la cantidad de programas necesarios para la gestión es elemental en un plan de manejo, estas son las herramientas que se aplican para contrarrestar los posibles impactos y sus efectos, dentro de los más comunes se encuentran el programa de mitigación, programa de medidas compensatorias, programa de contingencias y riesgos, programa de seguimiento, evaluación y control, programa de capacitación.
+    
+    .col-lg-10.m-auto.mt-5
+      .tarjeta.color-primario.p-4(style="background: linear-gradient(180deg, rgba(66,165,227,1) 0%, rgba(48,118,182,1) 100%);")
+        .row.justify-content-around.align-items-center
+          .col-3.col-sm-2.col-lg-1
+            img(src="@/assets/curso/tema1/8.svg")
+          .col
+            .row.justify-content-between.align-items-center
+              .col.mb-3.mb-sm-0
+                h4.mb-1.text-white Guía técnica para la elaboración de Planes de Manejo Ambiental (PMA)
+                p.text-small.text-white Para ampliar la información sobre los planes de manejo ambiental se invita a leer el documento, que se encuentra en el material complementario.
+              .col-sm-auto
+                a.boton.color-primario(href="https://oab.ambientebogota.gov.co/?post_type=dlm_download&p=3825" target="_blank")
+                  span(style="color:#12263F !important;") Descargar
+                  i.fas.fa-file-download(style="color:#12263F !important;")
+    
+    h3.subtitulo_cf(data-aos="fade-up")  Planes de contingencia
 
+    p.mt-4(data-aos="fade-up") Uno de los elementos más importantes en el manejo de los residuos es el denominado plan de contingencia, el cual es un elemento que se encuentra inmerso dentro del plan de emergencias de toda entidad.
 
+    .row.mt-4
+      .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
+        figure
+          img(src="@/assets/curso/tema3/41.svg" data-aos="fade-right")
+      .col-lg-8(style="place-self:center;")
+        p(data-aos="fade-up") De acuerdo con la Dirección de Prevención y Atención de Emergencias -DPAE- (2009), en su documento Guía para elaborar planes de emergencia y contingencias, describe este documento como el instrumento principal que define las políticas, los sistemas de organización y los procedimientos generales aplicables para enfrentar de manera oportuna, eficiente y eficaz las situaciones de calamidad, desastre o emergencia en sus distintas fases, con el fin de mitigar o reducir los efectos negativos o lesivos de las situaciones que se presenten en la organización (p.18).
+        .cajon.cajon1.color-primario.p-4.mt-4(style="background-color:#F6F6F6;")
+          p.mb-0(data-aos="fade-up") En el caso específico de planes de contingencia el mismo documento brinda una definición indicando que es el que desarrolla en detalle aspectos pertinentes para la respuesta que solo son propios del riesgo y del territorio al que esté referido. Los planes de contingencia se organizan por tipo de riesgo, tales como deslizamientos, inundaciones, incendios forestales, materiales peligrosos y aglomeraciones de público, entre otros. Los planes de contingencia pueden ser desarrollados por la administración distrital en sus diferentes niveles (central, institucional o local), por el sector privado y por la comunidad (p.14).
 
+    p.mt-5(data-aos="fade-up") En este caso se podría resumir que los planes de contingencia se deben basar en los potenciales escenarios de riesgo del sistema de disposición final o de gestión de los residuos, los cuales deben obtenerse del análisis de vulnerabilidad realizado, de acuerdo con las amenazas que pueden afectar a la organización durante su funcionamiento, razón para analizar los siguientes puntos:
 
+    .row.mt-5
+      .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
+        LineaTiempoD.color-secundario
+          div(numero="1" titulo="Partes del plan de contingencia")
+            p Debe incluir procedimientos generales de atención de emergencias y procedimientos específicos para cada escenario de riesgo identificado, dando cumplimiento a los siguientes parámetros mínimos:
+            ul.lista-ul--separador.mt-3
+              li
+                i.fas.fa-check-circle(style="color:#FFA031;")
+                | Análisis de riesgo.
+              li
+                i.fas.fa-check-circle(style="color:#FFA031;")
+                | Identificación y caracterización de peligros y amenazas.
+              li
+                i.fas.fa-check-circle(style="color:#FFA031;")
+                | Análisis de vulnerabilidad por amenazas.
+              li
+                i.fas.fa-check-circle(style="color:#FFA031;")
+                | Definición de los escenarios de riesgo.
+              li
+                i.fas.fa-check-circle(style="color:#FFA031;")
+                | Organización del plan de emergencias.
+              li
+                i.fas.fa-check-circle(style="color:#FFA031;")
+                | Puesta en marcha del plan de emergencias.
+              li
+                i.fas.fa-check-circle(style="color:#FFA031;")
+                | Responsables de la elaboración y puesta en marcha del plan de contingencias.
+          div(numero="2" titulo="Análisis de riesgos")
+            p Los riesgos se analizan a través de una evaluación que estima la probabilidad de ocurrencia de un evento no deseado, según la obtención de la severidad y de las consecuencias en la seguridad, salud, medio ambiente y/o bienestar público.
+            p.mt-3 Según la Dirección de Prevención y Atención de Emergencias DPAE (2009) la evaluación considera la naturaleza del riesgo, su facilidad de acceso o vía de contacto, las características del sector y/o población expuesta, la posibilidad de que ocurra y la magnitud de exposición y sus consecuencias, permitiendo definir medidas que minimicen los impactos que puedan generarse. 
+          div(numero="3" titulo="Identificación de amenazas")
+            p Se entiende por amenaza, la probabilidad de que un fenómeno de origen natural o humano eventualmente cause daño y genere pérdidas, y que se produzca en un determinado tiempo y lugar.
+            p.mt-3 La descripción de la amenaza debe detallarse al máximo posible y esta incluye el punto crítico y definir si es de origen interno o externo. 
+          div(numero="4" titulo="Análisis de vulnerabilidad por amenaza")
+            p Proceso donde se determina el nivel de exposición y predisposición a la pérdida de uno o varios elementos ante una amenaza específica. El grado de vulnerabilidad que se tiene frente a una amenaza específica está relacionado con la organización interna para prevenir o controlar aquellos factores que originan el peligro, al igual que su preparación para minimizar las consecuencias.
+            p.mt-3 El Reglamento Técnico del Sector Agua Potable y Saneamiento Básico (RAS) en su título G, establece una metodología para realizar un análisis de vulnerabilidad.
+          div(numero="5" titulo="Definición de los escenarios de riesgo")
+            p Los resultados del análisis de riesgos determinan los escenarios en los que se prioriza la intervención. Las matrices de severidad del riesgo y de niveles de planificación permiten desarrollar planes de gestión. 
+            p.mt-3 Los riesgos más comunes asociados a sitios de disposición de residuos se pueden encontrar:
+            ul.lista-ul--separador.mt-4.ps-0.ps-lg-4
+              li
+                i.fas.fa-check-circle(style="color:#FFA031;")
+                | Filtración de lixiviados en aguas subterráneas.
+              li
+                i.fas.fa-check-circle(style="color:#FFA031;")
+                | Escape de agua superficial contaminada hacia el suelo y hacia el recurso hídrico.
+              li
+                i.fas.fa-check-circle(style="color:#FFA031;")
+                | Combustión incontrolada.
+              li
+                i.fas.fa-check-circle(style="color:#FFA031;")
+                | Migración de gas hacia el suelo y el aire.
+              li
+                i.fas.fa-check-circle(style="color:#FFA031;")
+                | Desestabilización de suelos por residuos inestables. 
+          div(numero="6" titulo="Organización del plan de emergencias")
+            p Una vez obtenida la información de las posibles contingencias se debe proceder a realizar las acciones encaminadas a un plan de emergencia general, dentro de las que se pueden mencionar las siguientes:
+            ul.lista-ul--separador.mt-4.ps-0.ps-lg-4
+              li
+                i.fas.fa-check-circle(style="color:#FFA031;")
+                | Aislamiento.
+              li
+                i.fas.fa-check-circle(style="color:#FFA031;")
+                | Señalización.
+              li
+                i.fas.fa-check-circle(style="color:#FFA031;")
+                | Definición de puntos de encuentro y vías de escape.
+              li
+                i.fas.fa-check-circle(style="color:#FFA031;")
+                | Determinación de la cantidad y localización estratégica de equipos de seguridad y protección individual.
+              li
+                i.fas.fa-check-circle(style="color:#FFA031;")
+                | Definición de procedimientos contra derrames, fugas e incendios.
+      .col-lg-4(style="place-self:center;")
+        figure
+          img(src="@/assets/curso/tema3/42.svg" data-aos="fade-left")
+    
+    .col-lg-10.m-auto.mt-5
+      .tarjeta.color-primario.p-4(style="background: linear-gradient(180deg, rgba(66,165,227,1) 0%, rgba(48,118,182,1) 100%);")
+        .row.justify-content-around.align-items-center
+          .col-3.col-sm-2.col-lg-1
+            img(src="@/assets/curso/tema1/8.svg")
+          .col
+            .row.justify-content-between.align-items-center
+              .col.mb-3.mb-sm-0
+                h4.mb-1.text-white Guía para elaborar planes de emergencia y contingencia
+                p.text-small.text-white Para ampliar la información de planes de emergencia y contingencia se invita a consultar el documento, que se encuentra en el material complementario:
+              .col-sm-auto
+                a.boton.color-primario(href="https://bibliotecadigital.ccb.org.co/bitstream/handle/11520/14249/Gu%c3%ada%20para%20elaborar%20planes%20de%20emergencia.pdf?sequence=1&isAllowed=y" target="_blank")
+                  span(style="color:#12263F !important;") Descargar
+                  i.fas.fa-file-download(style="color:#12263F !important;")
+    
+    h3.subtitulo_cf(data-aos="fade-up") Permisos y licencias
 
-            
-            
+    p.mt-4(data-aos="fade-up") De acuerdo con la superintendencia de servicios públicos domiciliarios (2016), en su documento Disposición final de residuos sólidos informe nacional 2015, la disposición final de los residuos sólidos es una actividad de interés nacional por lo que se hace necesaria la creación de diferentes leyes, decretos y resoluciones que permitan regular esta actividad. Dentro de la regulación creada se planteó otorgar permisos y licencias a las empresas que cumplan con las condiciones técnicas, a fin de poder mejorar la calidad de la disposición que se realiza en el país.
+
+    .row.mt-5
+      .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
+        figure
+          img(src="@/assets/curso/tema3/43.png" data-aos="fade-right")
+      .col-lg-1
+      .col-lg-7(style="place-self:center;")
+        .h-100.p-4.p-lg-5.cont_arrow1(style="background-color:#EAF4FB;border-radius:10px;")
+          p.mb-0(data-aos="fade-up") Desde el Departamento Nacional de Planeación (DNP) con el Plan Nacional de Desarrollo (PND) 2014 - 2018 Todos por un nuevo país (2015), promulgado desde la Ley 1753 de 2015, se busca fortalecer la gestión de residuos sólidos en todos sus componentes, inicialmente se busca que cada vez sean menos los municipios que disponen sus residuos sólidos en lugares no autorizados o que incumplan los requerimientos técnicos para realizar esta labor.
+    
+    p.mt-5(data-aos="fade-up") Adicionalmente a esto se busca el aprovechamiento de los residuos sólidos, con el objetivo de minimizar los impactos ambientales, al tiempo que se extiende la vida útil de los rellenos sanitarios que cumplen con las condiciones técnicas hoy en día.
+
+    .row.mt-5
+      .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
+        .h-100.p-4.p-lg-5.cont_arrow2(style="background-color:#EAF4FB;border-radius:10px;")
+          p.mb-0(data-aos="fade-up") Con el fin de evitar que un residuo generado con potencial de aprovechamiento sea dispuesto en un relleno sanitario, el documento CONPES 3874 actualizó la política nacional para la Gestión Integral de Residuos Sólidos (PGIRS), enfocando las prioridades en la jerarquía de la gestión de residuos en la prevención de la generación de los residuos, su aprovechamiento, tratamiento y dejando como última opción la disposición final.
+      .col-lg-1
+      .col-lg-4(style="place-self:center;")
+        figure
+          img(src="@/assets/curso/tema3/44.png" data-aos="fade-left")
+    
+    p.mt-5(data-aos="fade-up") Para lograr una mejor gestión, desde la Ley 142 de 1994 se estableció que las empresas que presten servicio público están obligadas a obtener los permisos ambientales y sanitarios que la actividad que presten haga necesario.
+
+    .row.mt-5
+      .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
+        figure
+          img(src="@/assets/curso/tema3/45.svg" data-aos="fade-right")
+      .col-lg-8(style="place-self:center;")
+        p(data-aos="fade-up") De este modo, teniendo en cuenta el régimen normativo ambiental y los impactos ambientales que genera la acción de residuos sólidos, los rellenos sanitarios requieren de una licencia ambiental para poder operar; sin embargo, se debe hacer una especificación que los rellenos sanitarios que iniciaron operación antes del año 1993 no requerían de licencia ambiental puesto que estas no existían, así pues, pueden operar con un Plan de Manejo Ambiental (PMA) aunque están en un régimen de transición ambiental. 
+        .cajon.cajon1.color-primario.p-4.mt-4(style="background-color:#F6F6F6;")
+          p.mb-0(data-aos="fade-up") De acuerdo con el Decreto 1220 de 2005 la Presidencia de la República  de Colombia establece la licencia ambiental como una autorización que otorga la autoridad ambiental competente para la ejecución de un proyecto, obra o actividad. Esta licencia no se otorga a cualquier empresa, ni a cualquier proyecto, solo se tienen en cuenta aquellos que pueden producir un deterioro grave a los recursos naturales o al medio ambiente, una vez se logre obtener la licencia ambiental se deben cumplir con todos los requisitos, términos, condiciones y obligaciones relacionadas con la prevención, mitigación, corrección, compensación y manejo de los efectos ambientales.
+    
+    .row.mt-5
+      .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
+        p(data-aos="fade-up") La licencia ambiental se exige para la construcción y operación de rellenos sanitarios de acuerdo con lo estipulado por la Presidencia de la República, a través del Decreto 1220 de 2005 en su Artículo 9, así mismo, en el Parágrafo 6 cita que #[strong #[em “cuando el aprovechamiento o el almacenamiento temporal de residuos sólidos requieran del uso y aprovechamiento de los recursos naturales, deberán contar con los permisos, concesiones o autorizaciones necesarias. Asimismo, la disposición final de los subproductos no aprovechables que se generen en desarrollo de estas actividades, deberá realizarse en un sistema de disposición final autorizado por la autoridad ambiental competente”]].
+        .cajon.cajon1.color-primario.p-4.mt-4(style="background-color:#F6F6F6;")
+          p.mb-0(data-aos="fade-up") La licencia ambiental se otorga al proyecto de forma global y por toda su vida útil, desde la construcción y montaje hasta el desmantelamiento y abandono, debido a esto lleva implícitos todos los permisos, autorizaciones y concesiones para el uso de los recursos naturales.
+      .col-lg-4(style="place-self:center;")
+        figure
+          img(src="@/assets/curso/tema3/46.png" data-aos="fade-left")
+
+    .col-lg-10.m-auto.mt-5
+      .tarjeta.color-primario.p-4(style="background: linear-gradient(180deg, rgba(66,165,227,1) 0%, rgba(48,118,182,1) 100%);")
+        .row.justify-content-around.align-items-center
+          .col-3.col-sm-2.col-lg-1
+            img(src="@/assets/curso/tema1/8.svg")
+          .col
+            .row.justify-content-between.align-items-center
+              .col.mb-3.mb-sm-0
+                h4.mb-1.text-white Decreto 1220 de 2005
+                p.text-small.text-white Para ampliar la información de permisos y licencias se invita a consultar el Decreto, que se encuentra en el material complementario.
+              .col-sm-auto
+                a.boton.color-primario(href="https://www.icbf.gov.co/cargues/avance/docs/decreto_1220_2005.ht" target="_blank")
+                  span(style="color:#12263F !important;") Descargar
+                  i.fas.fa-file-download(style="color:#12263F !important;")
+
 
 
 
@@ -388,4 +639,40 @@ export default {
   left: 0
   height: 100%
   background-color: #F6F6F6
+.pasos-a__linea__esquina__linea
+  border-radius: 0px
+.pasos-a.color-primario .pasos-a__linea .hor-line
+  border-top-color: #12263F
+.pasos-a.color-primario .pasos-a__linea__esquina__linea
+  border-color: #12263F
+.pasos-a.color-primario .pasos-a__numero::after
+  border-left-color: #12263F
+.pasos-a.color-primario .pasos-a__circle
+  background-color: #fff
+  border: 6px #FFA031 solid
+.cont_arrow1, .cont_arrow1 *
+  position: relative
+.cont_arrow1:before
+  content: ''
+  position: absolute
+  width: 150px
+  height: 150px
+  left: -70px
+  top: 20%
+  background-color: #EAF4FB
+  transform: rotate(45deg)
+.cont_arrow2, .cont_arrow2 *
+  position: relative
+.cont_arrow2:before
+  content: ''
+  position: absolute
+  width: 150px
+  height: 150px
+  right: -70px
+  top: 20%
+  background-color: #EAF4FB
+  transform: rotate(45deg)
+@media screen and (max-width: 992px)
+  .cont_arrow1:before, .cont_arrow2:before
+    display: none
 </style>
