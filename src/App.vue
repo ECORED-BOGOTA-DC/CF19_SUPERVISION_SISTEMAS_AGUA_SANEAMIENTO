@@ -175,4 +175,17 @@ export default {
   background-repeat: no-repeat
   background-size: cover
   background-position: center
+.cont_gradiente6, .cont_gradiente6 *
+  position: relative
+.cont_gradiente6:before
+  content: ''
+  position: absolute
+  width: 125%
+  height: 100%
+  left: -15%
+  top: 0
+  background: url(./assets/curso/tema3/20.png)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
 </style>
