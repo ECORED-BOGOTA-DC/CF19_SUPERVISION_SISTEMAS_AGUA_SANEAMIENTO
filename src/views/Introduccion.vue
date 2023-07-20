@@ -10,7 +10,7 @@
     
     .cont_gradiente1
       figure.mb-md-0.mb-4
-        img(src="@/assets/curso/intro2.png" data-aos="zoom-in-up")
+        img(src="@/assets/curso/intro2.png" data-aos="zoom-in-up" alt="Imagen decorativa")
       .col-lg-10.m-auto
         .p-4.cont_gradiente_gris
           p.mb-0(data-aos="fade-up") En este componente se abordarán saberes relacionados con  la disposición final de los residuos, considerada la última opción en la gestión integral para organizar las actividades de transporte, preservación, almacenamiento y recepción de las muestras de tal forma que estas no sean alteradas. #[strong A continuación, se puede contextualizar a través de la revisión de las tarjetas animadas.]

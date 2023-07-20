@@ -313,7 +313,7 @@
           h5 Figura 2
           span  Celda de seguridad
         figure.mt-5
-          img(src="@/assets/curso/tema3/29.png" data-aos="zoom-in-up")
+          img(src="@/assets/curso/tema3/29.png" data-aos="zoom-in-up" alt="Celda de seguridad")
           figcaption.p-3.fw-normal.mt-3(style="background-color:#F6F6F6;") #[strong Nota.] Tomado de Benavides (1994) citado en Ministerio de Ambiente, Vivienda y Desarrollo Territorial (2007)- Gestión integral de residuos o desechos peligrosos. [Figura] p. 111.
     
     .col-11.m-auto.mt-5

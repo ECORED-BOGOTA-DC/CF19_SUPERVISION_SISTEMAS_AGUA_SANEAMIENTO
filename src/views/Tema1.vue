@@ -219,7 +219,7 @@
         h5 Figura 1
         span Ejemplo de organigrama empresa de disposición final
       figure.mt-5
-        img(src="@/assets/curso/tema1/17.svg" data-aos="zoom-in-up")
+        img(src="@/assets/curso/tema1/17.svg" data-aos="zoom-in-up" alt="Ejemplo de organigrama empresa de disposición final")
         figcaption.p-3.fw-normal.mt-3(style="background-color:#F6F6F6;") #[strong Nota:] Tomado del Ministerio de Vivienda. (2017). Guía de planeación estratégica para el manejo de residuos sólidos de pequeños municipios en Colombia. [Figura]. Diapositiva 52.
     
     Separador.mt-5
@@ -234,8 +234,8 @@
         h5 Tabla 1
         span  Ejemplo de equipos y elementos requeridos para la logística de residuos
       
-      .tabla-a.color-secundario.mt-5 
-        table
+      .tabla-a.color-secundario.mt-5
+        table(alt="Ejemplo de equipos y elementos requeridos para la logística de residuos")
           caption.p-3.fw-normal.mt-3(style="background-color:#F6F6F6;") #[strong Nota:] SENA (s.f.).
           thead
             tr(style="background-color:#DBEFFC;")

@@ -188,7 +188,7 @@
           h5 Tabla 2
           span Niveles de importancia
         .tabla-a.color-secundario.mt-4(style="width:100%;min-width:100%;max-width:100%;")
-          table(style="width:100%;min-width:100%;max-width:100%;")
+          table(style="width:100%;min-width:100%;max-width:100%;" alt="Niveles de importancia")
             caption.p-3.fw-normal.mt-3(style="background-color:#F6F6F6;") #[strong Nota:] SENA (s.f.).
             thead
               tr(style="background-color:#DBEFFC;")
