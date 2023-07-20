@@ -107,13 +107,13 @@
           figure.text-center
             img(src="@/assets/curso/tema3/16.svg" data-aos="zoom-in-up" style="display:inline;max-width:120px;")
           h3.mt-4(data-aos="fade-up") Relleno sanitario semimecanizado
-          p.mb-0(data-aos="fade-up") Recomendado para municipios donde se generan entre 20 y 40 toneladas de residuos al día, se utiliza de forma parcial maquinaria para el compactado y la cobertura de los residuos, tales como bulldozer u orugas de cadena, este tipo de relleno no permite la contratación de mano de obra no calificada, la impermeabilización no se hace natural con arcilla sino que se utilizan materiales artificiales como geosintéticos o geomembranas, en este tipo de relleno el biogás generado se capta y se ventea; pero no se le realiza un tratamiento)
+          p.mb-0(data-aos="fade-up") Recomendado para municipios donde se generan entre 20 y 40 toneladas de residuos al día, se utiliza de forma parcial maquinaria para el compactado y la cobertura de los residuos, tales como #[em bulldozer] u orugas de cadena, este tipo de relleno no permite la contratación de mano de obra no calificada, la impermeabilización no se hace natural con arcilla, sino que se utilizan materiales artificiales como geosintéticos o geomembranas, en este tipo de relleno el biogás generado se capta y se ventea; pero no se le realiza un tratamiento.
       .col-lg.p-0
         .h-100.p-4.pt-5.text-center.text-white(style="background-color:#4DB1F0;border-radius:0px 20px 20px 0px;")
           figure.text-center
             img(src="@/assets/curso/tema3/17.svg" data-aos="zoom-in-up" style="display:inline;max-width:120px;")
           h3.mt-4(data-aos="fade-up") Relleno mecanizado
-          p.mb-0(data-aos="fade-up") Recomendado para municipios que excedan las 40 toneladas de residuos al día, se utiliza continuamente maquinaria pesada en la operación, normalmente esta maquinaría consta de tractor compactador, bulldozer, retroexcavadora cargadora o de pala frontal y camiones cisterna o de volquete, cumple con todas las condiciones técnicas del relleno semimecanizado; pero adicionalmente se hace tratamiento del biogás generado por los residuos sólidos.
+          p.mb-0(data-aos="fade-up") Recomendado para municipios que excedan las 40 toneladas de residuos al día, se utiliza continuamente maquinaria pesada en la operación, normalmente esta maquinaría consta de tractor compactador, #[em bulldozer], retroexcavadora cargadora o de pala frontal y camiones cisterna o de volquete, cumple con todas las condiciones técnicas del relleno semimecanizado; pero adicionalmente se hace tratamiento del biogás generado por los residuos sólidos.
     
     p.mt-5(data-aos="fade-up") El Ministerio de Vivienda, Ciudad y Territorio (2017) en su Guía de planeación estratégica para el manejo de residuos sólidos de pequeños municipios en Colombia establece que los rellenos sanitarios deben cumplir con las siguientes características:
 
@@ -157,7 +157,7 @@
             div(numero="2" titulo="Estudios geotécnicos")
               p Se recaban datos correspondientes a las propiedades de los suelos y la solución de los posibles problemas que se puedan presentar durante las excavaciones. El objetivo de estos estudios es predecir el comportamiento mecánico del suelo donde se va a construir el relleno, teniendo en cuenta variables como la resistencia, la elasticidad, entre otros. 
               p.mt-4  Para realizar el estudio geotécnico se tienen en cuenta la composición y tipos de suelo, su textura, el perfil, granulometría, compactación, permeabilidad, humedad natural, densidad y tipos de roca presentes.
-            p(numero="3" titulo="Estudios hidrogeológicos") A través de estos estudios se localizan los mantos acuíferos y se conoce información de escurrimiento, velocidad, dirección del movimiento y cortes estratigráficos de los suelos, para ello deben hacerse estudios geofísicos con la ubicación de piezómetros o pozo de monitoreo. Existen técnicas como el sondeo eléctrico vertical donde se utilizan electrodos para determinar la resistividad del subsuelo a diferentes profundidades y así poder inferir la composición litológica del mismo y el tipo de fluidos que contiene.
+            p(numero="3" titulo="Estudios hidrogeológicos") A través de estos estudios se localizan los mantos acuíferos y se conoce información de escurrimiento, velocidad, dirección del movimiento y cortes estratigráficos de los suelos, para ello deben hacerse estudios geofísicos con la ubicación de piezómetros o pozo de monitoreo. Existen técnicas como el sondeo eléctrico vertical, donde se utilizan electrodos para determinar la resistividad del subsuelo a diferentes profundidades y así poder inferir la composición litológica del mismo y el tipo de fluidos que contiene.
             p(numero="4" titulo="Estudio hidrológico") Es el estudio del agua presente tanto en la atmósfera como en la corteza terrestre del lugar donde se construirá el relleno sanitario, se deben tener registros continuos sobre las cuencas, aguas superficiales y aguas subterráneas que puedan ser afectadas de alguna medida con los residuos. Dentro de estos estudios se tienen en cuenta la precipitación pluvial, la evaporación y transpiración.
         .col-lg-4(style="place-self:center;")
           figure
@@ -187,7 +187,7 @@
     
     h3.subtitulo_cf(data-aos="fade-up") Métodos de construcción de rellenos sanitarios
 
-    p.mt-4(data-aos="fade-up") Debido a las diferentes condiciones del terreno que se pueden presentar en los lotes dispuestos y la variabilidad de la cantidad de residuos que generan los habitantes de un municipio se han establecido diferentes métodos de construcción de rellenos sanitarios, a fin de minimizar al máximo el impacto ambiental y optimizando recursos.
+    p.mt-4(data-aos="fade-up") Debido a las diferentes condiciones del terreno que se pueden presentar en los lotes dispuestos y la variabilidad de la cantidad de residuos que generan los habitantes de un municipio, se han establecido diferentes métodos de construcción de rellenos sanitarios, a fin de minimizar al máximo el impacto ambiental y optimizando recursos.
     .cajon.cajon1.color-primario.p-4.mt-4(style="background-color:#F6F6F6;")
       p.mb-0(data-aos="fade-up") Con el fin de cumplir con las características técnicas que se deben tener dentro del relleno sanitario, se deben hacer diferentes estudios a fin de garantizar el cumplimiento en el largo tiempo, algunos de estos estudios son:
 
@@ -204,7 +204,7 @@
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
                 h4.mb-1.text-white Método de relleno por zanjas mecánico y manual
-                p.text-small.text-white Tomado del Ministerio del Ambiente (2012). Guía el cierre técnico de botaderos. Si es de su interés ampliar la información puede ir al siguiente enlace:
+                p.text-small.text-white Tomado del Ministerio del Ambiente (2012). Guía para el Diseño Construcción, Operación, Mantenimiento y Monitoreo de Relleno Sanitario Mecanizado. Si es de su interés ampliar la información puede ir al siguiente enlace:
               .col-sm-auto
                 a.boton.color-primario(href="https://sinia.minam.gob.pe/documentos/guia-diseno-construccion-operacion-mantenimiento-monitoreo-relleno" target="_blank")
                   span(style="color:#12263F !important;") Ir a página
@@ -212,7 +212,7 @@
     
     h3.subtitulo_cf(data-aos="fade-up") Manejo y tratamiento de lixiviados
 
-    p.mt-4(data-aos="fade-up") Indistintamente del método que se utilice en la construcción del relleno sanitario debido al agua presente en los residuos, las entradas de aguas subterráneas y la infiltración del agua lluvia generan lixiviados que deben ser manejados y tratados.
+    p.mt-4(data-aos="fade-up") Indistintamente del método que se utilice en la construcción del relleno sanitario debido al agua presente en los residuos, las entradas de aguas subterráneas y la infiltración del agua lluvia, generan lixiviados que deben ser manejados y tratados.
 
     .row.mt-5
       .col-lg-3.mb-4.mb-lg-0(style="place-self:center;")
@@ -237,7 +237,7 @@
     
     AcordionA.mt-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .col-lg-11.m-auto(titulo="Herramientas")
-        p Independiente si el relleno sanitario es semimecanizado o mecanizado se debe contar con una serie de herramientas que pueden ser de apoyo en la operación diaria, entre las que están:
+        p Independiente si el relleno sanitario es semimecanizado o mecanizado, se debe contar con una serie de herramientas que pueden ser de apoyo en la operación diaria, entre las que están:
         .row.mt-4
           .col-lg-9.mb-4.mb-lg-0.ps-0.ps-lg-5(style="place-self:center;")
              ul.lista-ul--separador
@@ -272,16 +272,16 @@
             figure
               img(src="@/assets/curso/tema3/25.png")
           .col-lg-9(style="place-self:center;")
-            p Los residuos se deben descargar lo más cerca posible a la celda donde se dispondrán, con el fin de evitar la dispersión de estos por la acción del viento y minimizar la proliferación de vectores, dependiendo del tipo de relleno serán las condiciones de descarga, por ejemplo, en rellenos manuales los trabajadores depositan los residuos en capas delgadas de un espesor máximo de 30 cm, posterior a ello se debe compactar con una capa de entre 10 a 15 centímetros de tierra. Cuando el relleno es semimecanizado o mecanizado las capas de residuos pueden tener entre 50 y 100 centímetros, lo que permite obtener mejores resultados de compactación. La cobertura se calcula a partir del volumen de los residuos depositados en relación 1:3, es decir, si se depositan 50 m3 de residuos se debe utilizar 16 m3 de tierra para la cobertura.
+            p Los residuos se deben descargar lo más cerca posible a la celda donde se dispondrán, con el fin de evitar la dispersión de estos por la acción del viento y minimizar la proliferación de vectores, dependiendo del tipo de relleno, serán las condiciones de descarga, por ejemplo, en rellenos manuales los trabajadores depositan los residuos en capas delgadas de un espesor máximo de 30 cm, posterior a ello se debe compactar con una capa de entre 10 a 15 centímetros de tierra. Cuando el relleno es semimecanizado o mecanizado, las capas de residuos pueden tener entre 50 y 100 centímetros, lo que permite obtener mejores resultados de compactación. La cobertura se calcula a partir del volumen de los residuos depositados en relación 1:3, es decir, si se depositan 50 m#[sup 3] de residuos se debe utilizar 16 m#[sup 3] de tierra para la cobertura.
       .col-lg-11.m-auto(titulo="Compactación de los residuos")
         .row
           .col-lg-9.mb-4.mb-lg-0(style="place-self:center;")
-            p Para realizar la compactación se pueden utilizar diferentes tipos de maquinaria entre las que se encuentran los compactadores con ruedas metálicas, cuya principal característica son los dientes en forma de V que hacen presión a los residuos. Los cargadores con ruedas son un equipo tractor, que tiene un cucharón de gran tamaño en su extremo frontal y puede generar presión sobre los residuos. El cargador de orugas es otra de las maquinarias utilizadas para la compactación de residuos, ya que puede excavar, acarrear, apilar, cargar, cubrir, separar, desgarrar, explanar, compactar y nivelar residuos.
+            p Para realizar la compactación se pueden utilizar diferentes tipos de maquinaria, entre las que se encuentran los compactadores con ruedas metálicas, cuya principal característica son los dientes en forma de V que hacen presión a los residuos. Los cargadores con ruedas son un equipo tractor, que tiene un cucharón de gran tamaño en su extremo frontal y puede generar presión sobre los residuos. El cargador de orugas es otra de las maquinarias utilizadas para la compactación de residuos, ya que puede excavar, acarrear, apilar, cargar, cubrir, separar, desgarrar, explanar, compactar y nivelar residuos.
           .col-lg-3(style="place-self:center;")
             figure
               img(src="@/assets/curso/tema3/26.png")
       
-    p.mt-5(data-aos="fade-up") Adicionalmente, a los compactadores se pueden operar también minicargadores, retroexcavadoras, volquetas, bulldozer y tractores.
+    p.mt-5(data-aos="fade-up") Adicionalmente, a los compactadores se pueden operar también minicargadores, retroexcavadoras, volquetas, #[em bulldozer] y tractores.
 
     Separador.mt-5
 
@@ -298,7 +298,7 @@
         ul.lista-ul.mt-4
           li.d-flex(data-aos="fade-up")
             i.fas.fa-check-circle(style="color:#4DB1F0;")
-            p.mb-0 #[strong Celda de seguridad:] cuando los residuos peligrosos no pueden tener un tratamiento por sus características de peligrosidad son llevados a una celda de seguridad (relleno de seguridad), que es un sistema tecnificado para poder disponer de forma controlada y ambientalmente segura los residuos peligrosos.
+            p.mb-0 #[strong Celda de seguridad:] cuando los residuos peligrosos no pueden tener un tratamiento por sus características de peligrosidad, son llevados a una celda de seguridad (relleno de seguridad), que es un sistema tecnificado para poder disponer de forma controlada y ambientalmente segura los residuos peligrosos.
 
     .cont_gradiente6.mt-5
       .row
@@ -310,11 +310,11 @@
             img(src="@/assets/curso/tema3/28.svg" data-aos="fade-left" style="position:relative;")
       .col-lg-8.mt-5.m-auto
         .titulo-sexto.color-secundario
-          h5.d-block Figura 4
+          h5 Figura 2
           span  Celda de seguridad
         figure.mt-5
           img(src="@/assets/curso/tema3/29.png" data-aos="zoom-in-up")
-          figcaption.p-3.fw-normal.mt-3(style="background-color:#F6F6F6;") #[strong Nota.] Cartilla para la adecuada gestión de residuos y/o desechos peligrosos - aaud
+          figcaption.p-3.fw-normal.mt-3(style="background-color:#F6F6F6;") #[strong Nota.] Tomado de Benavides (1994) citado en Ministerio de Ambiente, Vivienda y Desarrollo Territorial (2007)- Gestión integral de residuos o desechos peligrosos. [Figura] p. 111.
     
     .col-11.m-auto.mt-5
       .row(style="background-color:#F6F6F6;border-radius:10px;box-shadow:rgba(0, 0, 0, 0.1) 0px 5px 9px 0px;")
@@ -330,7 +330,7 @@
     .titulo-segundo
       h2#t_3_4 3.4 Planes de manejo ambiental
     
-    p(data-aos="fade-up") De acuerdo con la Alcaldía Mayor de Bogotá (2009), en el documento Guía técnica para la elaboración de Planes de Manejo Ambiental (PMA).
+    p(data-aos="fade-up") De acuerdo con la Alcaldía Mayor de Bogotá (2009), en el documento #[em Guía técnica para la elaboración de Planes de Manejo Ambiental (PMA)].
 
     .row.mt-4
       .col-lg-5.mb-4.mb-lg-0(style="place-self:center;")
@@ -355,7 +355,7 @@
           .row
             .col-lg-10.col-md-8.mb-4.mb-md-0(style="place-self:center;")
               .text-start(data-aos="fade-right")
-                h5 Disponer de su ficha de datos de seguridad (FDS) u hoja de seguridad
+                h5 Resumen ejecutivo
                 p Es una síntesis del trabajo, su objetivo es permitir que el lector tenga una visión general del documento. Describe las actividades a ejecutar y los resultados esperados, prestando particular atención a las medidas formuladas para mitigar o eliminar los impactos ambientales negativos que la actividad puede causar sobre el medio ambiente y la comunidad; también describe los programas de implementación y cronogramas correspondientes (Alcaldía Mayor de Bogotá, 2009).
             .col-lg-2.col-md-4(style="place-self:center;")
               figure.text-center
@@ -441,9 +441,9 @@
         figure
           img(src="@/assets/curso/tema3/41.svg" data-aos="fade-right")
       .col-lg-8(style="place-self:center;")
-        p(data-aos="fade-up") De acuerdo con la Dirección de Prevención y Atención de Emergencias -DPAE- (2009), en su documento Guía para elaborar planes de emergencia y contingencias, describe este documento como el instrumento principal que define las políticas, los sistemas de organización y los procedimientos generales aplicables para enfrentar de manera oportuna, eficiente y eficaz las situaciones de calamidad, desastre o emergencia en sus distintas fases, con el fin de mitigar o reducir los efectos negativos o lesivos de las situaciones que se presenten en la organización (p.18).
+        p(data-aos="fade-up") De acuerdo con la Dirección de Prevención y Atención de Emergencias DPAE (2009), en su documento Guía para elaborar planes de emergencia y contingencias, describe este documento como el instrumento principal que define las políticas, los sistemas de organización y los procedimientos generales aplicables para enfrentar de manera oportuna, eficiente y eficaz las situaciones de calamidad, desastre o emergencia en sus distintas fases, con el fin de mitigar o reducir los efectos negativos o lesivos de las situaciones que se presenten en la organización (p.18).
         .cajon.cajon1.color-primario.p-4.mt-4(style="background-color:#F6F6F6;")
-          p.mb-0(data-aos="fade-up") En el caso específico de planes de contingencia el mismo documento brinda una definición indicando que es el que desarrolla en detalle aspectos pertinentes para la respuesta que solo son propios del riesgo y del territorio al que esté referido. Los planes de contingencia se organizan por tipo de riesgo, tales como deslizamientos, inundaciones, incendios forestales, materiales peligrosos y aglomeraciones de público, entre otros. Los planes de contingencia pueden ser desarrollados por la administración distrital en sus diferentes niveles (central, institucional o local), por el sector privado y por la comunidad (p.14).
+          p.mb-0(data-aos="fade-up") En el caso específico de planes de contingencia, el mismo documento brinda una definición indicando que es el que desarrolla en detalle aspectos pertinentes para la respuesta que solo son propios del riesgo y del territorio al que esté referido. Los planes de contingencia se organizan por tipo de riesgo, tales como deslizamientos, inundaciones, incendios forestales, materiales peligrosos y aglomeraciones de público, entre otros. Los planes de contingencia pueden ser desarrollados por la administración distrital en sus diferentes niveles (central, institucional o local), por el sector privado y por la comunidad (p.14).
 
     p.mt-5(data-aos="fade-up") En este caso se podría resumir que los planes de contingencia se deben basar en los potenciales escenarios de riesgo del sistema de disposición final o de gestión de los residuos, los cuales deben obtenerse del análisis de vulnerabilidad realizado, de acuerdo con las amenazas que pueden afectar a la organización durante su funcionamiento, razón para analizar los siguientes puntos:
 
@@ -503,7 +503,7 @@
                 i.fas.fa-check-circle(style="color:#FFA031;")
                 | Desestabilización de suelos por residuos inestables. 
           div(numero="6" titulo="Organización del plan de emergencias")
-            p Una vez obtenida la información de las posibles contingencias se debe proceder a realizar las acciones encaminadas a un plan de emergencia general, dentro de las que se pueden mencionar las siguientes:
+            p Una vez obtenida la información de las posibles contingencias, se debe proceder a realizar las acciones encaminadas a un plan de emergencia general, dentro de las que se pueden mencionar las siguientes:
             ul.lista-ul--separador.mt-4.ps-0.ps-lg-4
               li
                 i.fas.fa-check-circle(style="color:#FFA031;")
@@ -536,12 +536,12 @@
                 p.text-small.text-white Para ampliar la información de planes de emergencia y contingencia se invita a consultar el documento, que se encuentra en el material complementario:
               .col-sm-auto
                 a.boton.color-primario(href="https://bibliotecadigital.ccb.org.co/bitstream/handle/11520/14249/Gu%c3%ada%20para%20elaborar%20planes%20de%20emergencia.pdf?sequence=1&isAllowed=y" target="_blank")
-                  span(style="color:#12263F !important;") Descargar
-                  i.fas.fa-file-download(style="color:#12263F !important;")
+                  span(style="color:#12263F !important;") Ir al enlace
+                  i.fas.fa-link(style="color:#12263F !important;")
     
     h3.subtitulo_cf(data-aos="fade-up") Permisos y licencias
 
-    p.mt-4(data-aos="fade-up") De acuerdo con la superintendencia de servicios públicos domiciliarios (2016), en su documento Disposición final de residuos sólidos informe nacional 2015, la disposición final de los residuos sólidos es una actividad de interés nacional por lo que se hace necesaria la creación de diferentes leyes, decretos y resoluciones que permitan regular esta actividad. Dentro de la regulación creada se planteó otorgar permisos y licencias a las empresas que cumplan con las condiciones técnicas, a fin de poder mejorar la calidad de la disposición que se realiza en el país.
+    p.mt-4(data-aos="fade-up") De acuerdo con la superintendencia de servicios públicos domiciliarios (2016), en su documento Disposición final de residuos sólidos informe nacional 2015, la disposición final de los residuos sólidos es una actividad de interés nacional, por lo que se hace necesaria la creación de diferentes leyes, decretos y resoluciones que permitan regular esta actividad. Dentro de la regulación creada se planteó otorgar permisos y licencias a las empresas que cumplan con las condiciones técnicas, a fin de poder mejorar la calidad de la disposición que se realiza en el país.
 
     .row.mt-5
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
@@ -570,13 +570,13 @@
         figure
           img(src="@/assets/curso/tema3/45.svg" data-aos="fade-right")
       .col-lg-8(style="place-self:center;")
-        p(data-aos="fade-up") De este modo, teniendo en cuenta el régimen normativo ambiental y los impactos ambientales que genera la acción de residuos sólidos, los rellenos sanitarios requieren de una licencia ambiental para poder operar; sin embargo, se debe hacer una especificación que los rellenos sanitarios que iniciaron operación antes del año 1993 no requerían de licencia ambiental puesto que estas no existían, así pues, pueden operar con un Plan de Manejo Ambiental (PMA) aunque están en un régimen de transición ambiental. 
+        p(data-aos="fade-up") De este modo, teniendo en cuenta el régimen normativo ambiental y los impactos ambientales que genera la acción de residuos sólidos, los rellenos sanitarios requieren de una licencia ambiental para poder operar; sin embargo, se debe hacer una especificación que los rellenos sanitarios que iniciaron operación antes del año 1993 no requerían de licencia ambiental, puesto que estas no existían, así pues, pueden operar con un Plan de Manejo Ambiental (PMA) aunque están en un régimen de transición ambiental. 
         .cajon.cajon1.color-primario.p-4.mt-4(style="background-color:#F6F6F6;")
-          p.mb-0(data-aos="fade-up") De acuerdo con el Decreto 1220 de 2005 la Presidencia de la República  de Colombia establece la licencia ambiental como una autorización que otorga la autoridad ambiental competente para la ejecución de un proyecto, obra o actividad. Esta licencia no se otorga a cualquier empresa, ni a cualquier proyecto, solo se tienen en cuenta aquellos que pueden producir un deterioro grave a los recursos naturales o al medio ambiente, una vez se logre obtener la licencia ambiental se deben cumplir con todos los requisitos, términos, condiciones y obligaciones relacionadas con la prevención, mitigación, corrección, compensación y manejo de los efectos ambientales.
+          p.mb-0(data-aos="fade-up") De acuerdo con el Decreto 1220 de 2005, la Presidencia de la República  de Colombia establece la licencia ambiental como una autorización que otorga la autoridad ambiental competente para la ejecución de un proyecto, obra o actividad. Esta licencia no se otorga a cualquier empresa, ni a cualquier proyecto, solo se tienen en cuenta aquellos que pueden producir un deterioro grave a los recursos naturales o al medio ambiente, una vez se logre obtener la licencia ambiental se deben cumplir con todos los requisitos, términos, condiciones y obligaciones relacionadas con la prevención, mitigación, corrección, compensación y manejo de los efectos ambientales.
     
     .row.mt-5
       .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
-        p(data-aos="fade-up") La licencia ambiental se exige para la construcción y operación de rellenos sanitarios de acuerdo con lo estipulado por la Presidencia de la República, a través del Decreto 1220 de 2005 en su Artículo 9, así mismo, en el Parágrafo 6 cita que #[strong #[em “cuando el aprovechamiento o el almacenamiento temporal de residuos sólidos requieran del uso y aprovechamiento de los recursos naturales, deberán contar con los permisos, concesiones o autorizaciones necesarias. Asimismo, la disposición final de los subproductos no aprovechables que se generen en desarrollo de estas actividades, deberá realizarse en un sistema de disposición final autorizado por la autoridad ambiental competente”]].
+        p(data-aos="fade-up") La licencia ambiental se exige para la construcción y operación de rellenos sanitarios de acuerdo con lo estipulado por la Presidencia de la República, a través del Decreto 1220 de 2005 en su Artículo 9, así mismo, en el Parágrafo 6 cita que #[strong “cuando el aprovechamiento o el almacenamiento temporal de residuos sólidos requieran del uso y aprovechamiento de los recursos naturales, deberán contar con los permisos, concesiones o autorizaciones necesarias. Asimismo, la disposición final de los subproductos no aprovechables que se generen en desarrollo de estas actividades, deberá realizarse en un sistema de disposición final autorizado por la autoridad ambiental competente”].
         .cajon.cajon1.color-primario.p-4.mt-4(style="background-color:#F6F6F6;")
           p.mb-0(data-aos="fade-up") La licencia ambiental se otorga al proyecto de forma global y por toda su vida útil, desde la construcción y montaje hasta el desmantelamiento y abandono, debido a esto lleva implícitos todos los permisos, autorizaciones y concesiones para el uso de los recursos naturales.
       .col-lg-4(style="place-self:center;")
@@ -594,9 +594,9 @@
                 h4.mb-1.text-white Decreto 1220 de 2005
                 p.text-small.text-white Para ampliar la información de permisos y licencias se invita a consultar el Decreto, que se encuentra en el material complementario.
               .col-sm-auto
-                a.boton.color-primario(href="https://www.icbf.gov.co/cargues/avance/docs/decreto_1220_2005.ht" target="_blank")
-                  span(style="color:#12263F !important;") Descargar
-                  i.fas.fa-file-download(style="color:#12263F !important;")
+                a.boton.color-primario(href="https://www.icbf.gov.co/cargues/avance/docs/decreto_1220_2005.htm" target="_blank")
+                  span(style="color:#12263F !important;") Ir al enlace
+                  i.fas.fa-link(style="color:#12263F !important;")
 
 
 

@@ -22,6 +22,8 @@
     
     p(data-aos="fade-up") Antes de la puesta en práctica de una tecnología de disposición final se debe realizar una recolección de datos e información pertinente y veraz, que permita hacer un análisis sobre la situación actual de la comunidad que será beneficiada y de sus condiciones particulares.
 
+    p.mt-4(data-aos="zoom-in") Dentro de los datos que son requeridos para realizar un análisis previo se pueden contemplar los siguientes:
+
     .row.mt-5
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
         figure
@@ -64,7 +66,10 @@
             | Dato de la estación meteorológica más próxima. 
           li(data-aos="fade-up")
             i.fas.fa-check-circle(style="color:#4DB1F0;")
-            | Planos y proyecciones (plano de crecimiento urbano, plan de urbanismo del municipio)
+            | Planos y proyecciones (plano de crecimiento urbano, plan de urbanismo del municipio).
+          li(data-aos="fade-up")
+            i.fas.fa-check-circle(style="color:#4DB1F0;")
+            | Planes de ordenamiento territorial o planes básicos de ordenamiento territorial.
       .col-lg-4(style="place-self:center;")
         figure
           img(src="@/assets/curso/tema1/3.png" data-aos="fade-left")
@@ -106,7 +111,7 @@
           TabsA.tabs1.color-acento-contenido
             .tarjeta.color-acento-botones.p-4(titulo="El área requerida para los rellenos sanitarios o la estrategia seleccionada para la disposición final de residuos sólidos" style="background-color:#E8E8E8;")
               h4(style="color:#12263F;") El área requerida para los rellenos sanitarios o la estrategia seleccionada para la disposición final de residuos sólidos
-              p.mt-3(style="color:#12263F;") La información básica para obtener esta estimación es la población con servicio de recolección o el volumen de desechos sólidos recolectados (m3/día), la tasa de crecimiento anual de la población y la densidad de los residuos sólidos compactados (tn/m3).
+              p.mt-3(style="color:#12263F;") La información básica para obtener esta estimación es la población con servicio de recolección o el volumen de desechos sólidos recolectados (m#[sup(style="color:#12263F;") 3]/día), la tasa de crecimiento anual de la población y la densidad de los residuos sólidos compactados (tn/m#[sup(style="color:#12263F;") 3]).
             .tarjeta.color-acento-botones.p-4(titulo="La determinación de las variables para los estudios" style="background-color:#E8E8E8;")
               h4(style="color:#12263F;") La determinación de las variables para los estudios
               p.mt-3(style="color:#12263F;") Tanto la autoridad ambiental como las entidades territoriales solicitaron toda la información que logre consolidar estudios preliminares, topográficos, geológicos, geomorfológicos, de subsuelo, hidrogeológicos, hidrológicos y geotécnicos.
@@ -115,7 +120,7 @@
               p.mt-3(style="color:#12263F;") Relacionados con el análisis de estabilidad y el análisis de riesgo.
             .tarjeta.color-acento-botones.p-4(titulo="Diseños y cálculos" style="background-color:#E8E8E8;")
               h4(style="color:#12263F;") Diseños y cálculos
-              p.mt-3(style="color:#12263F;") Enmarcado en información que puede ser analizada antes y durante la ejecución de la disposición final de residuos sólidos, entre ellos se puede mencionar, diseños de llenado, cálculos de las celdas de disposición, del drenaje de lixiviados, de gases, canales de aguas lluvias, entre otros.
+              p.mt-3(style="color:#12263F;") Enmarcado en información que puede ser analizada antes y durante la ejecución de la disposición final de residuos sólidos, entre ellos se puede mencionar, diseños de llenado, cálculos de las celdas de disposición, del drenaje, de lixiviados, de gases, canales de aguas lluvias, entre otros.
     
     .col-lg-10.m-auto.mt-2
       .tarjeta.color-primario.p-4(style="background: linear-gradient(180deg, rgba(66,165,227,1) 0%, rgba(48,118,182,1) 100%);")
@@ -139,7 +144,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema1/9.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0(data-aos="fade-up") Es importante entender que durante la ejecución de actividades de disposición final intervienen diferentes actores tanto internos como externos, que pueden influir en la ejecución y mantenimiento del proyecto de disposición final; manejar el conducto regular con estos actores hace referencia a entender cuáles son las diferentes instancias que deben ser consultadas o informadas en el momento de la solicitud de información o del reporte de la misma.
+        p.mb-0(data-aos="fade-up") Es importante entender que durante la ejecución de actividades de disposición final intervienen diferentes actores, tanto internos como externos, que pueden influir en la ejecución y mantenimiento del proyecto de disposición final; manejar el conducto regular con estos actores hace referencia a entender cuáles son las diferentes instancias que deben ser consultadas o informadas en el momento de la solicitud de información o del reporte de la misma.
     
     p.mt-5(Data-aos="fade-up") De acuerdo con el Ministerio de Vivienda, Ciudad y Territorio (2017), a manera externa se pueden describir a grandes rasgos los siguientes actores:
 
@@ -152,9 +157,9 @@
           p(numero="1" titulo="Gobierno Nacional") Coordina las diferentes entidades.
           p(numero="2" titulo="Ministerio de Vivienda, Ciudad y Territorio") Adopción de las políticas, programas, proyectos y regulación para el acceso de la población a agua potable y saneamiento básico, brinda legislación en materia de residuos sólidos.
           p(numero="3" titulo="Ministerio de Ambiente y Desarrollo Sostenible") Orientación y regulación del ordenamiento ambiental del territorio, definición de las políticas y regulaciones a las que se sujetarán la recuperación, conservación, protección, ordenamiento, manejo, uso y aprovechamiento sostenible de los recursos naturales renovables y del ambiente, además brinda legislación en materia de residuos sólidos.
-          p(numero="4" titulo="Comisión de regulación de agua potable y saneamiento básico (CRA)") Regulación de la actividad de los prestadores de los servicios públicos, brinda criterios para otorgar subsidios y metodologías para fijar tarifas.
+          p(numero="4" titulo="Comisión de Regulación de Agua Potable y Saneamiento Básico (CRA)") Regulación de la actividad de los prestadores de los servicios públicos, brinda criterios para otorgar subsidios y metodologías para fijar tarifas.
           p(numero="5" titulo="Superintendencia de servicios públicos domiciliarios") Control de la fiscalización de las empresas prestadoras de servicios públicos, brinda protección de los derechos de los consumidores y apoya a las alcaldías.
-          p(numero="6" titulo="Corporaciones autónomas regionales") Función de máxima autoridad ambiental en el área de su jurisdicción, ejerce las funciones de evaluación, control y seguimiento ambiental; otorga licencias y permisos ambientales en sus áreas de influencia.
+          p(numero="6" titulo="Corporaciones Autónomas Regionales") Función de máxima autoridad ambiental en el área de su jurisdicción, ejerce las funciones de evaluación, control y seguimiento ambiental; otorga licencias y permisos ambientales en sus áreas de influencia.
           p(numero="7" titulo="Secretaría Distrital de Ambiente") En el caso de Bogotá, este es el ente que ejerce la función de máxima autoridad ambiental en el área de su jurisdicción, ejerce las funciones de evaluación, control y seguimiento ambiental.
     
     .row.mt-5
@@ -193,17 +198,17 @@
           .row
             .col-lg-6.mb-4.mb-lg-0
               h3  Comunicación bidireccional
-              p.mt-3 La comunicación bidireccional en el mismo nivel, esta es la más común, dada por los grupos de trabajo de las organizaciones y es la que se da durante la ejecución de las actividades diarias, en este caso, se suelen usar medios informales como la comunicación oral, correos electrónicos, entre otros.
+              p.mt-3 La comunicación bidireccional en el mismo nivel, es la más común, dada por los grupos de trabajo de las organizaciones y es la que se da durante la ejecución de las actividades diarias, en este caso, se suelen usar medios informales como la comunicación oral, correos electrónicos, entre otros.
             .col-lg-6
               figure
                 img(src='@/assets/curso/tema1/15.png')
     
       .col-lg-10.m-auto.mt-5
         .row(style="background-color:#F6F6F6;border-radius:10px;box-shadow:rgba(0, 0, 0, 0.1) 0px 5px 9px 0px;")
-          .col-auto.p-0.d-flex.align-items-center
+          .col-auto.p-md-0.d-flex.align-items-center
             figure
               img(src="@/assets/curso/tema1/16.svg" data-aos="fade-right" style="margin-left: -47px;width: 100px;max-width: 100px;")
-          .col.p-0
+          .col.p-md-0
             .p-4.ps-2
               h4(data-aos="fade-up") Nota importante
               p(data-aos="fade-up") La relevancia del conducto regular es seguirlo a total cabalidad en cualquier organización para que la responsabilidad del documento que vaya a ser transmitido o entregado sea compartida, para la gestión de la disposición de residuos peligrosos y no peligrosos se debe acatar el conducto regular para garantizar que la información que será entregada a los diferentes actores sea acorde con las políticas de la empresa, además de ello, presenten datos verificados, reales y correctos.
@@ -211,7 +216,7 @@
     
     .col-lg-10.mt-5.m-auto
       .titulo-sexto.color-secundario
-        h5.d-block Figura 1
+        h5 Figura 1
         span Ejemplo de organigrama empresa de disposición final
       figure.mt-5
         img(src="@/assets/curso/tema1/17.svg" data-aos="zoom-in-up")
@@ -222,11 +227,11 @@
     .titulo-segundo
       h2#t_1_2 1.2 Manejo de insumos e inventarios
     
-    p(data-aos="fade-up") Para realizar actividades de disposición final se requieren diferentes equipos e insumos que deben ser contemplados desde la separación de los residuos hasta la disposición final, aunque dependen del método o técnica seleccionada la necesidad de los elementos, a manera general, se podrían tener en cuenta los siguientes:
+    p(data-aos="fade-up") Para realizar actividades de disposición final se requieren diferentes equipos e insumos que deben ser contemplados desde la separación de los residuos hasta la disposición final, aunque dependen del método o técnica seleccionada, la necesidad de los elementos, a manera general, se podrían tener en cuenta los siguientes:
 
     .col-lg-10.mt-5.m-auto
       .titulo-sexto.color-secundario
-        h5.d-block Tabla 1
+        h5 Tabla 1
         span  Ejemplo de equipos y elementos requeridos para la logística de residuos
       
       .tabla-a.color-secundario.mt-5 
@@ -259,7 +264,7 @@
         .col.p-0
           .p-4.ps-2
             h4(data-aos="fade-up") Es importante
-            p.mb-0(data-aos="fade-up") Reconocer que todos los insumos deben mantenerse en óptimas condiciones para el mantenimiento de las técnicas y metodologías seleccionadas para la disposición final de residuos, se recomienda realizar un control de inventarios constante que permita verificar no solo los elementos que requieren recambio o se encuentran aptos para su uso, si no también inventarios de los residuos generados.
+            p.mb-0(data-aos="fade-up") Reconocer que todos los insumos deben mantenerse en óptimas condiciones para el mantenimiento de las técnicas y metodologías seleccionadas para la disposición final de residuos, se recomienda realizar un control de inventarios constante que permita verificar no solo los elementos que requieren recambio o se encuentran aptos para su uso, sino también inventarios de los residuos generados.
     
     h3.subtitulo_cf(data-aos="fade-up") Inventarios para residuos peligrosos (RESPEL)
     
@@ -294,21 +299,21 @@
                     span.text-white.fw-bold(style="font-size:25px;") 01
                 .col.ps-0
                   .h-100.p-3.d-flex.align-items-center(style="background-color:#F6F6F6;border-radius:0px 5px 5px 0px;box-shadow:-5px 4px 11px rgba(0,0,0,.16);")
-                    p.mb-0.fw-bold Sector o actividad productiva
+                    p.mb-0.fw-bold Sector o actividad productiva.
               .row.mb-4(data-aos="fade-up")
                 .col-auto.pe-0(style="width:fit-content;")
                   .h-100.text-center.p-2.ps-3.pe-3.d-flex.align-items-center.justify-content-center(style="background-color:#12263F;border-radius:5px;")
                     span.text-white.fw-bold(style="font-size:25px;") 02
                 .col.ps-0
                   .h-100.p-3.d-flex.align-items-center(style="background-color:#F6F6F6;border-radius:0px 5px 5px 0px;box-shadow:-5px 4px 11px rgba(0,0,0,.16);")
-                    p.mb-0.fw-bold Nombre del generador
+                    p.mb-0.fw-bold Nombre del generador.
               .row.mb-4(data-aos="fade-up")
                 .col-auto.pe-0(style="width:fit-content;")
                   .h-100.text-center.p-2.ps-3.pe-3.d-flex.align-items-center.justify-content-center(style="background-color:#12263F;border-radius:5px;")
                     span.text-white.fw-bold(style="font-size:25px;") 03
                 .col.ps-0
                   .h-100.p-3.d-flex.align-items-center(style="background-color:#F6F6F6;border-radius:0px 5px 5px 0px;box-shadow:-5px 4px 11px rgba(0,0,0,.16);")
-                    p.mb-0.fw-bold Ubicación del generador
+                    p.mb-0.fw-bold Ubicación del generador.
               .row.mb-4(data-aos="fade-up")
                 .col-auto.pe-0(style="width:fit-content;")
                   .h-100.text-center.p-2.ps-3.pe-3.d-flex.align-items-center.justify-content-center(style="background-color:#12263F;border-radius:5px;")
@@ -323,21 +328,21 @@
                     span.text-white.fw-bold(style="font-size:25px;") 05
                 .col.ps-0
                   .h-100.p-3.d-flex.align-items-center(style="background-color:#F6F6F6;border-radius:0px 5px 5px 0px;box-shadow:-5px 4px 11px rgba(0,0,0,.16);")
-                    p.mb-0.fw-bold Origen del residuo
+                    p.mb-0.fw-bold Origen del residuo.
               .row.mb-4(data-aos="fade-up")
                 .col-auto.pe-0(style="width:fit-content;")
                   .h-100.text-center.p-2.ps-3.pe-3.d-flex.align-items-center.justify-content-center(style="background-color:#12263F;border-radius:5px;")
                     span.text-white.fw-bold(style="font-size:25px;") 06
                 .col.ps-0
                   .h-100.p-3.d-flex.align-items-center(style="background-color:#F6F6F6;border-radius:0px 5px 5px 0px;box-shadow:-5px 4px 11px rgba(0,0,0,.16);")
-                    p.mb-0.fw-bold Cantidad mensual generada de cada residuo peligroso
+                    p.mb-0.fw-bold Cantidad mensual generada de cada residuo peligroso.
               .row(data-aos="fade-up")
                 .col-auto.pe-0(style="width:fit-content;")
                   .h-100.text-center.p-2.ps-3.pe-3.d-flex.align-items-center.justify-content-center(style="background-color:#12263F;border-radius:5px;")
                     span.text-white.fw-bold(style="font-size:25px;") 07
                 .col.ps-0
                   .h-100.p-3.d-flex.align-items-center(style="background-color:#F6F6F6;border-radius:0px 5px 5px 0px;box-shadow:-5px 4px 11px rgba(0,0,0,.16);")
-                    p.mb-0.fw-bold Gestión realizada a cada uno de los residuos peligrosos
+                    p.mb-0.fw-bold Gestión realizada a cada uno de los residuos peligrosos.
     
     h3.subtitulo_cf(data-aos="fade-up") Métodos para realizar inventarios RESPEL
 
@@ -413,7 +418,7 @@
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
                 h4.mb-1.text-white Gestión integral de residuos o desechos peligrosos
-                p.text-small.text-white Para ampliar la información sobre los inventarios de Respel se invita a leer el documento “Gestión integral de residuos o desechos peligrosos”, páginas 79 -84, que se encuentra en el material complementario.
+                p.text-small.text-white Para ampliar la información sobre los inventarios de #[em Respel] se invita a leer el documento “Gestión integral de residuos o desechos peligrosos”, páginas 79 -84, que se encuentra en el material complementario.
               .col-sm-auto
                 a.boton.color-primario(href="https://www.corpamag.gov.co/archivos/tramites/RESPEL/Gestion_Integral_RESPEL_Bases_Conceptuales.pdf" target="_blank")
                   span(style="color:#12263F !important;") Descargar

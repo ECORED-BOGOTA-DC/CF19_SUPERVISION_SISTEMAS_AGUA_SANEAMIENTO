@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Disposición final de residuos',
     descripcionCurso:
-      'La última fase  con los residuos sólidos es conocida como la disposición final, considerada en la gestión integral; en el caso que deba recurrirse a esta metodología debe realizarse con base en parámetros técnicos, de seguridad y salud en el trabajo acordes con la normatividad legal vigente.',
+      'La última fase  con los residuos sólidos es conocida como la disposición final, considerada en la gestión integral; en el caso de que deba recurrirse a esta metodología debe realizarse con base en parámetros técnicos, de seguridad y salud en el trabajo acordes con la normatividad legal vigente.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -158,14 +158,14 @@ export default {
     {
       tema: '2.Impactos ambientales',
       referencia:
-        'Alcaldía Mayor de Bogotá. (2009). Guía técnica para la elaboración de Planes de Manejo Ambiental (PMA).',
+        'Alcaldía Mayor de Bogotá. (2009). <em>Guía técnica para la elaboración de Planes de Manejo Ambiental (PMA).</em>',
       tipo: 'Guía técnica',
       link: 'https://oab.ambientebogota.gov.co/?post_type=dlm_download&p=3825',
     },
     {
       tema: '2.Impactos ambientales',
       referencia:
-        'Decreto 1220 de 2005. [Presidencia de la República de Colombia]. Por el cual se reglamenta el Título VIII de la Ley 99 de 1993 sobre licencias ambientales. Abril 21 de 2005.',
+        'Decreto 1220 de 2005. [Presidencia de la República de Colombia] Por el cual se reglamenta el Título VIII de la Ley 99 de 1993 sobre licencias ambientales. Abril 21 de 2005.',
       tipo: 'Documento',
       link: 'https://www.icbf.gov.co/cargues/avance/docs/decreto_1220_2005.htm',
     },
@@ -178,25 +178,25 @@ export default {
         'https://www.minvivienda.gov.co/tramites-y-servicios/consultas-publicas/por-la-cual-se-reglamenta-el-decreto-1784-del-2-de-noviembre-de-2017-en-lo-relativo-las-actividades-complementarias-de-tratamiento-y-disposicion-final',
     },
     {
-      tema: '3.Técnicas de disposición Final',
+      tema: '3.Técnicas de disposición final',
       referencia:
-        'Dirección de Prevención y Atención de Emergencias DPAE. (2009). Guía para elaborar planes de emergencia y contingencias. DPAE.',
+        'Alcaldía Mayor de Bogotá. (2013). Guía para elaborar planes de emergencia y contingencias.',
       tipo: 'Guía',
       link:
-        'https://bibliotecadigital.ccb.org.co/bitstream/handle/11520/14249/Gu%c3%ada%20para%20elaborar%20planes%20de%20emergencia.pdf?sequence=1&isAllowed=y',
+        'https://sig.sdis.gov.co/images/documentos_sig/procesos/gestion_de_talento_humano/documentos_asociados/20091203_guia_elaborar_planes_de_emergencia_y_contingencia.pdf',
     },
     {
       tema: '2.Impactos ambientales',
       referencia:
-        'Ministerio del Ambiente Perú. (2012). Guía para el diseño, construcción, operación, mantenimiento y monitoreo de relleno sanitario mecanizado. MINAM.',
+        'Ministerio del Ambiente Perú. (2012). <em>Guía para el diseño, construcción, operación, mantenimiento y monitoreo de relleno sanitario mecanizado</em>. MINAM.',
       tipo: 'Guía',
       link:
         'https://sinia.minam.gob.pe/documentos/guia-diseno-construccion-operacion-mantenimiento-monitoreo-relleno',
     },
     {
-      tema: '3.Técnicas de disposición Final',
+      tema: '3.Técnicas de disposición final',
       referencia:
-        'Ministerio de Ambiente, Vivienda y Desarrollo Territorial. (2007). Gestión integral de residuos o desechos peligrosos. Bases conceptuales. Dirección de desarrollo sectorial sostenible.',
+        'Ministerio de Ambiente, Vivienda y Desarrollo Territorial. (2007). <em>Gestión integral de residuos o desechos peligrosos. Bases conceptuales</em>. Dirección de desarrollo sectorial sostenible.',
       tipo: 'Documento',
       link:
         'https://www.corpamag.gov.co/archivos/tramites/RESPEL/Gestion_Integral_RESPEL_Bases_Conceptuales.pdf',
@@ -204,7 +204,7 @@ export default {
     {
       tema: 'Introducción',
       referencia:
-        'El Tiempo (2022). Alerta sanitaria y ambiental en rellenos sanitarios del país [video]. YouTube.',
+        'El Tiempo (2022). <em>Alerta sanitaria y ambiental en rellenos sanitarios del país</em> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=1d5wV3apgxw&ab_channel=ELTIEMPO',
     },
@@ -228,7 +228,7 @@ export default {
     {
       termino: 'Disposición final de residuos sólidos',
       significado:
-        'es el proceso de aislar y confinar los residuos sólidos en especial los no aprovechables, en forma definitiva, en lugares especialmente seleccionados y diseñados para evitar la contaminación, y los daños o riesgos a la salud humana y al ambiente (Decreto 1077 de 2015).',
+        'es el proceso de aislar y confinar los residuos sólidos, en especial los no aprovechables, en forma definitiva, en lugares especialmente seleccionados y diseñados para evitar la contaminación, y los daños o riesgos a la salud humana y al ambiente (Decreto 1077 de 2015).',
     },
     {
       termino: 'Emergencia',
@@ -279,9 +279,13 @@ export default {
   referencias: [
     {
       referencia:
-        'Alcaldía Mayor de Bogotá. (2009). Guía técnica para la elaboración de Planes de Manejo Ambiental PMA. Alcaldía Mayor de Bogotá.',
-      link:
-        'Corantioquia. (s.f.). Metodologías para la identificación y evaluación de impactos ambientales. Corantioquia.',
+        'Alcaldía Mayor de Bogotá. (2009). <em>Guía técnica para la elaboración de Planes de Manejo Ambiental PMA</em>. Alcaldía Mayor de Bogotá.',
+      link: '',
+    },
+    {
+      referencia:
+        'Corantioquia. (s.f.). <em>Metodologías para la identificación y evaluación de impactos ambientales</em>. Corantioquia.',
+      link: '',
     },
     {
       referencia:
@@ -308,30 +312,24 @@ export default {
     },
     {
       referencia:
-        'Ministerio de Ambiente, Vivienda y Desarrollo Territorial. (2007). Gestión integral de residuos o desechos peligrosos. Bases conceptuales. Dirección de desarrollo sectorial sostenible.',
+        'Ministerio de Ambiente, Vivienda y Desarrollo Territorial. (2007). <em>Gestión integral de residuos o desechos peligrosos. Bases conceptuales</em>. Dirección de desarrollo sectorial sostenible.',
       link:
         'https://www.corpamag.gov.co/archivos/tramites/RESPEL/Gestion_Integral_RESPEL_Bases_Conceptuales.pdf',
     },
     {
       referencia:
-        'Ministerio del Ambiente Perú. (2012). Guía para el diseño, construcción, operación, mantenimiento y monitoreo de relleno sanitario mecanizado. MINAM.',
+        'Ministerio del Ambiente Perú. (2012). <em>Guía para el diseño, construcción, operación, mantenimiento y monitoreo de relleno sanitario mecanizado</em>. MINAM.',
       link:
         'https://sinia.minam.gob.pe/documentos/guia-diseno-construccion-operacion-mantenimiento-monitoreo-relleno',
     },
     {
       referencia:
-        'Ministerio de Ambiente, Vivienda y Desarrollo Territorial. (2007). Gestión integral de residuos o desechos peligrosos. Bases conceptuales. Dirección de desarrollo sectorial sostenible.',
-      link:
-        'https://www.corpamag.gov.co/archivos/tramites/RESPEL/Gestion_Integral_RESPEL_Bases_Conceptuales.pdf',
-    },
-    {
-      referencia:
-        'Senado de Colombia. (2017). Alerta sanitaria y ambiental en rellenos sanitarios del país [video]. YouTube.',
+        'Senado de Colombia. (2017). <em>Alerta sanitaria y ambiental en rellenos sanitarios del país</em> [video]. YouTube.',
       link: 'https://www.youtube.com/watch?v=k8BouGzKtqA',
     },
     {
       referencia:
-        'Superintendencia de Servicios Públicos Domiciliarios. (2016). Disposición final de residuos sólidos informe nacional 2015. Superintendencia de Servicios Públicos Domiciliarios.',
+        'Superintendencia de Servicios Públicos Domiciliarios. (2016). <em>Disposición final de residuos sólidos informe nacional 2015</em>. Superintendencia de Servicios Públicos Domiciliarios.',
       link: '',
     },
   ],
@@ -340,15 +338,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Líder del equipo',
-          centro: 'Dirección General',
+          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
+          cargo: 'Responsable del equipo',
+          centro: 'Dirección General ',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable de línea de producción',
+          nombre: 'Liliana Victoria Morales Gualdrón ',
+          cargo: 'Responsable de línea de producción ',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital ',
         },
       ],
     },
@@ -356,10 +354,16 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Nelly Parra Guarín ',
+          cargo: 'Adecuación instruccional - 2023 ',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital ',
+        },
+        {
+          nombre: 'Alix Cecilia Chinchilla Rueda ',
+          cargo: 'Metodología para la formación virtual  ',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital ',
         },
       ],
     },
@@ -367,22 +371,34 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Jesús Antonio Vecino Valero ',
           cargo: 'Diseñador web',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital ',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Luis Jesús Pérez Madariaga ',
           cargo: 'Desarrollador Fullstack',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital ',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Lady Adriana Ariza Luque ',
+          cargo: 'Animación y producción audiovisual ',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital ',
+        },
+        {
+          nombre: 'Laura Gisselle Murcia Pardo ',
+          cargo: 'Animación y producción audiovisual  ',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital  ',
+        },
+        {
+          nombre: 'Ernesto Navarro Jaimes  ',
+          cargo: 'Animación y producción audiovisual ',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital ',
         },
       ],
     },
@@ -390,22 +406,22 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validación y vinculación en plataforma LMS',
+          nombre: 'Carolina Coca Salazar ',
+          cargo: 'Evaluación de contenidos inclusivos y accesibles ',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital ',
         },
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validación y vinculación en plataforma LMS',
+          nombre: 'Lina Marcela Pérez Manchego ',
+          cargo: 'Validación de recursos educativos digitales ',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital ',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Validación de contenidos accesibles',
+          nombre: 'Leyson Fabian Castaño Pérez ',
+          cargo: 'Validación de recursos educativos digitales ',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital ',
         },
       ],
     },

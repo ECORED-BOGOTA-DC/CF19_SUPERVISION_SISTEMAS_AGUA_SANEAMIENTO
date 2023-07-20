@@ -91,20 +91,20 @@
 
     .col-11.m-auto.mt-4
       .row(style="background: linear-gradient(180deg, rgba(222,222,222,1) 0%, rgba(255,255,255,1) 50%, rgba(222,222,222,1) 100%);border-radius:8px;")
-        .col-auto.p-0.d-flex.align-items-center
+        .col-auto.p-md-0.d-flex.align-items-center
           figure
             img(src="@/assets/curso/tema2/8.svg" data-aos="fade-right" style="margin-left: -47px;width: 100px;max-width: 100px;")
-        .col.p-0
+        .col.p-md-0
           .p-4.ps-4
             h5(data-aos="fade-up") Pérdida del valor del suelo
             p.mb-0(data-aos="fade-up") Debido a la adquisición de terrenos que realizan las empresas para poder disponer los residuos sólidos y los impactos generados por esta actividad, los predios que colindan con la organización tienden a perder valor catastral, afectando así a sus propietarios.
     
     .col-11.m-auto.mt-4
       .row(style="background: linear-gradient(180deg, rgba(222,222,222,1) 0%, rgba(255,255,255,1) 50%, rgba(222,222,222,1) 100%);border-radius:8px;")
-        .col-auto.p-0.d-flex.align-items-center
+        .col-auto.p-md-0.d-flex.align-items-center
           figure
             img(src="@/assets/curso/tema2/9.svg" data-aos="fade-right" style="margin-left: -47px;width: 100px;max-width: 100px;")
-        .col.p-0
+        .col.p-md-0
           .p-4.ps-4
             h5(data-aos="fade-up") Generación de empleo
             p.mb-0(data-aos="fade-up") Para realizar las diferentes actividades relacionadas con la disposición final de los residuos sólidos se requiere personal capacitado, por lo que aumenta el nivel de ingresos de la población.
@@ -180,15 +180,15 @@
       p(data-aos="fade-up") De este modo, la importancia se obtiene a partir de la ecuación:
       .col-lg-6.m-auto.mt-5
         .p-4(style="background: linear-gradient(180deg, rgba(222,222,222,1) 0%, rgba(255,255,255,1) 50%, rgba(222,222,222,1) 100%);border-radius: 10px;box-shadow: 0px 0px 10px 5px rgba(0,0,0,.055)")
-          h3.mb-0.text-center(data-aos="fade-up") I= ± [3i +2EX+MO+PE +RV +SI +AC +EF+ PR +MC]
+          h3.mb-0.text-center(data-aos="fade-up") #[em I= ± [3i +2EX+MO+PE +RV +SI +AC +EF+ PR +MC]]
       p.mt-5(data-aos="fade-up") Los resultados se pueden interpretar de la siguiente manera:
 
       .col-lg-8.mt-5.m-auto
         .titulo-sexto.color-secundario
-          h5.d-block Tabla 2
+          h5 Tabla 2
           span Niveles de importancia
-        .tabla-a.color-secundario.mt-4
-          table
+        .tabla-a.color-secundario.mt-4(style="width:100%;min-width:100%;max-width:100%;")
+          table(style="width:100%;min-width:100%;max-width:100%;")
             caption.p-3.fw-normal.mt-3(style="background-color:#F6F6F6;") #[strong Nota:] SENA (s.f.).
             thead
               tr(style="background-color:#DBEFFC;")
@@ -214,9 +214,9 @@
                 td.p-4 Se superó el umbral aceptable, hay pérdida permanente de condiciones ambientales. No hay posibilidad de recuperación.
     
     .cajon.cajon1.color-primario.p-4.mt-5(style="background-color:#F6F6F6;")
-      p.mb-0(data-aos="fade-up") La matriz de Vicente Conesa es una de las metodologías más utilizadas; sin embargo, para hacer la evaluación de impactos ambientales por la disposición final de los residuos sólidos existen otras metodologías matriciales entre las que se encuentran:
+      p.mb-0(data-aos="fade-up") La matriz de Vicente Conesa es una de las metodologías más utilizadas; sin embargo, para hacer la evaluación de impactos ambientales por la disposición final de los residuos sólidos existen otras metodologías matriciales, entre las que se encuentran:
     
-    p.mt-5(data-aos="fade-up") #[strong Matriz de Leopold], desarrollada en los años 70 por el Dr. Luna Leopold y colaboradores, de acuerdo con el documento de Corantioquia, Metodologías para la identificación y evaluación de impactos ambientales, la matriz de Leopold es un método de identificación de impactos ambientales y valoración cualitativa, esta matriz relaciona 100 acciones con 90 factores ambientales, fue desarrollado por el Doctor Luna Leopold y colaboradores en los años 70, es útil para la evaluación preliminar de aquellos proyectos en los que se prevén grandes impactos ambientales, esta matriz solo identifica el impacto y su origen; pero no les proporciona ningún valor, para utilizar la matriz se debe:
+    p.mt-5(data-aos="fade-up") #[strong Matriz de Leopold], desarrollada en los años 70 por el Dr. Luna Leopold y colaboradores, de acuerdo con el documento de Corantioquia, #[em Metodologías para la identificación y evaluación de impactos ambientales], la matriz de Leopold es un método de identificación de impactos ambientales y valoración cualitativa, esta matriz relaciona 100 acciones con 90 factores ambientales, fue desarrollado por el Doctor Luna Leopold y colaboradores en los años 70, es útil para la evaluación preliminar de aquellos proyectos en los que se prevén grandes impactos ambientales, esta matriz solo identifica el impacto y su origen; pero no les proporciona ningún valor, para utilizar la matriz se debe:
 
     .row.mt-5
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
@@ -330,7 +330,7 @@
         p.mt-2 La entidad encargada debe optimizar el terreno en el cual es construida la infraestructura que permite la disposición final de residuos sólidos.
       .row.col-lg-11.m-auto(titulo="Vida útil de los sitios de disposición final")
         p Con el fin de aumentar la vida útil de los sitios de disposición final se deben promover estrategias que permitan la reducción en masa de los residuos que son dispuestos, se debe aumentar los porcentajes de aprovechamiento de cada residuo, así como educar a los generadores para que realicen una minimización de la cantidad de residuos que generan.
-        p.mt-2 Con el propósito de evitar una posible saturación de la infraestructura dispuesta a la disposición se debe iniciar la construcción de un nuevo sitio de disposición antes de que el primero cumpla con su vida útil.
+        p.mt-2 Con el propósito de evitar una posible saturación de la infraestructura dispuesta a la disposición, se debe iniciar la construcción de un nuevo sitio de disposición antes de que el primero cumpla con su vida útil.
       .row.col-lg-11.m-auto(titulo="Disposición no adecuada")
         p Se deben establecer políticas públicas que permitan que cada municipio cuente con un sitio de disposición final de sus residuos sólidos, con el fin de minimizar los impactos ambientales generados por los mismos.
         p.mt-2 Asimismo, se deben hacer procedimientos legales para cerrar los lugares donde se haga disposición no adecuada, generar la cultura de la correcta disposición e informar a la comunidad sobre los riesgos que los pueden afectar al permitir la disposición no adecuada cerca de sus viviendas.
