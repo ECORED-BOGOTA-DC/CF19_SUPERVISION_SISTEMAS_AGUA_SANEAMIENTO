@@ -109,18 +109,14 @@
             img(src="@/assets/curso/tema1/7.svg" data-aos="fade-right")
         .col-lg-8(style="place-self:center;")
           TabsA.tabs1.color-acento-contenido
-            .tarjeta.color-acento-botones.p-4(titulo="El área requerida para los rellenos sanitarios o la estrategia seleccionada para la disposición final de residuos sólidos" style="background-color:#E8E8E8;")
-              h4(style="color:#12263F;") El área requerida para los rellenos sanitarios o la estrategia seleccionada para la disposición final de residuos sólidos
-              p.mt-3(style="color:#12263F;") La información básica para obtener esta estimación es la población con servicio de recolección o el volumen de desechos sólidos recolectados (m#[sup(style="color:#12263F;") 3]/día), la tasa de crecimiento anual de la población y la densidad de los residuos sólidos compactados (tn/m#[sup(style="color:#12263F;") 3]).
-            .tarjeta.color-acento-botones.p-4(titulo="La determinación de las variables para los estudios" style="background-color:#E8E8E8;")
-              h4(style="color:#12263F;") La determinación de las variables para los estudios
-              p.mt-3(style="color:#12263F;") Tanto la autoridad ambiental como las entidades territoriales solicitaron toda la información que logre consolidar estudios preliminares, topográficos, geológicos, geomorfológicos, de subsuelo, hidrogeológicos, hidrológicos y geotécnicos.
-            .tarjeta.color-acento-botones.p-4(titulo="Información para los análisis técnicos" style="background-color:#E8E8E8;")
-              h4(style="color:#12263F;") Información para los análisis técnicos
-              p.mt-3(style="color:#12263F;") Relacionados con el análisis de estabilidad y el análisis de riesgo.
+            .tarjeta.color-acento-botones.p-4(titulo="Disposición final" style="background-color:#E8E8E8;")
+              p.mt-3(style="color:#12263F;") El área requerida para los rellenos sanitarios o la estrategia seleccionada para la disposición final de residuos sólidos: la información básica para obtener esta estimación es la población con servicio de recolección o el volumen de desechos sólidos recolectados (m#[sup(style="color:#12263F;") 3]/día), la tasa de crecimiento anual de la población y la densidad de los residuos sólidos compactados (tn/m#[sup(style="color:#12263F;") 3]).
+            .tarjeta.color-acento-botones.p-4(titulo="Las variables" style="background-color:#E8E8E8;")
+              p.mt-3(style="color:#12263F;") La determinación de las variables para los estudios: tanto la autoridad ambiental como las entidades territoriales solicitaron toda la información que logre consolidar estudios preliminares, topográficos, geológicos, geomorfológicos, de subsuelo, hidrogeológicos, hidrológicos y geotécnicos.
+            .tarjeta.color-acento-botones.p-4(titulo="Análisis técnico" style="background-color:#E8E8E8;")
+              p.mt-3(style="color:#12263F;") Información para los análisis técnicos: relacionados con el análisis de estabilidad y el análisis de riesgo.
             .tarjeta.color-acento-botones.p-4(titulo="Diseños y cálculos" style="background-color:#E8E8E8;")
-              h4(style="color:#12263F;") Diseños y cálculos
-              p.mt-3(style="color:#12263F;") Enmarcado en información que puede ser analizada antes y durante la ejecución de la disposición final de residuos sólidos, entre ellos se puede mencionar, diseños de llenado, cálculos de las celdas de disposición, del drenaje, de lixiviados, de gases, canales de aguas lluvias, entre otros.
+              p.mt-3(style="color:#12263F;") Diseños y cálculos: enmarcado en información que puede ser analizada antes y durante la ejecución de la disposición final de residuos sólidos, entre ellos se puede mencionar, diseños de llenado, cálculos de las celdas de disposición, del drenaje, de lixiviados, de gases, canales de aguas lluvias, entre otros.
     
     .col-lg-10.m-auto.mt-2
       .tarjeta.color-primario.p-4(style="background: linear-gradient(180deg, rgba(66,165,227,1) 0%, rgba(48,118,182,1) 100%);")

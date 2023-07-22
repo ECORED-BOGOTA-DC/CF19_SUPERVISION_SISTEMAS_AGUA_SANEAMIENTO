@@ -44,30 +44,30 @@
         .tarjeta.tarjeta1_1.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/4.png')})`}")
-              h5.mb-0.p-3.w-100(style="position:absolute;bottom:0;background-color:rgba(0,118,168,.95);") Quema no controlada de los residuos
+              h5.mb-0.p-3.w-100.text-white(style="position:absolute;bottom:0;background-color:rgba(0,118,168,.95);") Quema no controlada de los residuos
             .tarjeta-flip__contenido
               .p-4.p-xl-5.h-100.d-flex.align-items-center.flex-wrap.align-content-center(style="background-color: rgba(11,111,155,.95) !important")
-                p.fw-bold.mb-0 Quema no controlada de los residuos
-                p.mt-3.mb-0 Genera emisiones con contaminantes que pueden ser inhalados por la población cercana al lugar donde se realice la disposición final, estos contaminantes tales como material articulado y compuestos orgánicos presentan características cancerígenas, por lo que representa un alto riesgo  para la salud pública, adicional a esto, en lugares donde se presentan emisiones por combustión se diagnostica un número mayor de infecciones respiratorias agudas y otras enfermedades asociadas a las vías respiratorias.
+                p.fw-bold.mb-0.text-white Quema no controlada de los residuos
+                p.mt-3.mb-0.text-white Genera emisiones con contaminantes que pueden ser inhalados por la población cercana al lugar donde se realice la disposición final, estos contaminantes tales como material articulado y compuestos orgánicos presentan características cancerígenas, por lo que representa un alto riesgo  para la salud pública, adicional a esto, en lugares donde se presentan emisiones por combustión se diagnostica un número mayor de infecciones respiratorias agudas y otras enfermedades asociadas a las vías respiratorias.
       .col-lg.mb-4.mb-lg-0
         .tarjeta.tarjeta2_2.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/5.png')})`}")
-              h5.mb-0.p-3.w-100(style="position:absolute;bottom:0;background-color:rgba(0,139,138,.95);") Reproducción de vectores
+              h5.mb-0.p-3.w-100.text-white(style="position:absolute;bottom:0;background-color:rgba(0,139,138,.95);") Reproducción de vectores
             .tarjeta-flip__contenido
               .p-4.p-xl-5.h-100.d-flex.align-items-center.flex-wrap.align-content-center(style="background-color: rgba(0,139,138,.95) !important")
-                p.fw-bold.mb-0 Reproducción de vectores
-                p.mt-3.mb-0 La acumulación de residuos y la posibilidad de que estos bloqueen drenajes en caso de que la disposición se haga de forma inadecuada permite la reproducción de vectores que incrementa el número de casos de enfermedades infecciosas dentro de la población, entre otras, las enfermedades que se presentan con mayor frecuencia son el cólera y el dengue.
+                p.fw-bold.mb-0.text-white Reproducción de vectores
+                p.mt-3.mb-0.text-white La acumulación de residuos y la posibilidad de que estos bloqueen drenajes en caso de que la disposición se haga de forma inadecuada permite la reproducción de vectores que incrementa el número de casos de enfermedades infecciosas dentro de la población, entre otras, las enfermedades que se presentan con mayor frecuencia son el cólera y el dengue.
       .col-lg
         .tarjeta.tarjeta3_3.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/6.png')})`}")
-              h5.mb-0.p-3.w-100(style="position:absolute;bottom:0;background-color:rgba(0,118,168,.95);") Contaminación de aguas
+              h5.mb-0.p-3.w-100.text-white(style="position:absolute;bottom:0;background-color:rgba(0,118,168,.95);") Contaminación de aguas
             .tarjeta-flip__contenido
               .p-4.p-xl-5.h-100.d-flex.align-items-center.flex-wrap.align-content-center(style="background-color: rgba(11,111,155,.95) !important")
-                p.fw-bold.mb-0 Contaminación de aguas
-                p.mt-3.mb-0 Una incorrecta disposición de los residuos sólidos permitiría que los lixiviados generados se mezclen con aguas subterráneas que pueden ser consumidas posteriormente por la población, incrementando de este modo los casos por indigestión, intoxicación con metales pesados (en el caso de lixiviados de residuos peligrosos) e incluso la muerte.
+                p.fw-bold.mb-0.text-white Contaminación de aguas
+                p.mt-3.mb-0.text-white Una incorrecta disposición de los residuos sólidos permitiría que los lixiviados generados se mezclen con aguas subterráneas que pueden ser consumidas posteriormente por la población, incrementando de este modo los casos por indigestión, intoxicación con metales pesados (en el caso de lixiviados de residuos peligrosos) e incluso la muerte.
     
     h3.subtitulo_cf(data-aos="fade-up") Impactos al medio ambiente
 
