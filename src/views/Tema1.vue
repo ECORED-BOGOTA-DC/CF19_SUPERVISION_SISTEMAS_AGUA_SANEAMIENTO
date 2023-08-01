@@ -215,7 +215,7 @@
         h5 Figura 1
         span Ejemplo de organigrama empresa de disposición final
       figure.mt-5
-        img(src="@/assets/curso/tema1/17.svg" data-aos="zoom-in-up" alt="Ejemplo de organigrama empresa de disposición final")
+        img(src="@/assets/curso/tema1/17.svg" data-aos="zoom-in-up" alt="Representa el organigrama de una empresa, con el fin de que se lleve el conducto regular de la disposición final de manera correcta")
         figcaption.p-3.fw-normal.mt-3(style="background-color:#F6F6F6;") #[strong Nota:] Tomado del Ministerio de Vivienda. (2017). Guía de planeación estratégica para el manejo de residuos sólidos de pequeños municipios en Colombia. [Figura]. Diapositiva 52.
     
     Separador.mt-5

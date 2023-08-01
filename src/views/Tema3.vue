@@ -60,31 +60,31 @@
           .row.mt-4
             .col-lg.mb-4.mb-lg-0.col-md-6.text-center
               figure.text-center
-                img(src="@/assets/curso/tema3/8.svg" data-aos="fade-up" style="display:inline;width:100px;")
+                img(src="@/assets/curso/tema3/8.svg" data-aos="fade-up" style="display:inline;width:100px;" alt="Imagen que muestra los iconos: Overoles Impermeable Guantes Botas de seguridad Botas de goma Caretas Tapabocas")
               p(data-aos="fade-up") Overoles
             .col-lg.mb-4.mb-lg-0.col-md-6.text-center
               figure.text-center
-                img(src="@/assets/curso/tema3/9.svg" data-aos="fade-up" style="display:inline;width:80px;")
+                img(src="@/assets/curso/tema3/9.svg" data-aos="fade-up" style="display:inline;width:80px;" alt="Imagen que muestra los iconos: Overoles Impermeable Guantes Botas de seguridad Botas de goma Caretas Tapabocas")
               p(data-aos="fade-up") Impermeable
             .col-lg.mb-4.mb-lg-0.col-md-6.text-center
               figure.text-center
-                img(src="@/assets/curso/tema3/10.svg" data-aos="fade-up" style="display:inline;width:100px;")
+                img(src="@/assets/curso/tema3/10.svg" data-aos="fade-up" style="display:inline;width:100px;" alt="Imagen que muestra los iconos: Overoles Impermeable Guantes Botas de seguridad Botas de goma Caretas Tapabocas")
               p(data-aos="fade-up") Guantes
             .col-lg.mb-4.mb-lg-0.col-md-6.text-center
               figure.text-center
-                img(src="@/assets/curso/tema3/11.svg" data-aos="fade-up" style="display:inline;width:100px;")
+                img(src="@/assets/curso/tema3/11.svg" data-aos="fade-up" style="display:inline;width:100px;" alt="Imagen que muestra los iconos: Overoles Impermeable Guantes Botas de seguridad Botas de goma Caretas Tapabocas")
               p(data-aos="fade-up") Botas de seguridad
             .col-lg.mb-4.mb-lg-0.col-md-6.text-center
               figure.text-center
-                img(src="@/assets/curso/tema3/12.svg" data-aos="fade-up" style="display:inline;width:100px;")
+                img(src="@/assets/curso/tema3/12.svg" data-aos="fade-up" style="display:inline;width:100px;" alt="Imagen que muestra los iconos: Overoles Impermeable Guantes Botas de seguridad Botas de goma Caretas Tapabocas")
               p(data-aos="fade-up") Botas de goma
             .col-lg.mb-4.mb-lg-0.col-md-6.text-center
               figure.text-center
-                img(src="@/assets/curso/tema3/13.svg" data-aos="fade-up" style="display:inline;width:100px;")
+                img(src="@/assets/curso/tema3/13.svg" data-aos="fade-up" style="display:inline;width:100px;" alt="Imagen que muestra los iconos: Overoles Impermeable Guantes Botas de seguridad Botas de goma Caretas Tapabocas")
               p(data-aos="fade-up") Caretas
             .col-lg.col-md-6.text-center
               figure.text-center
-                img(src="@/assets/curso/tema3/14.svg" data-aos="fade-up" style="display:inline;width:100px;")
+                img(src="@/assets/curso/tema3/14.svg" data-aos="fade-up" style="display:inline;width:100px;" alt="Imagen que muestra los iconos: Overoles Impermeable Guantes Botas de seguridad Botas de goma Caretas Tapabocas")
               p(data-aos="fade-up") Tapabocas
     
     Separador.mt-5
@@ -313,7 +313,7 @@
           h5 Figura 2
           span  Celda de seguridad
         figure.mt-5
-          img(src="@/assets/curso/tema3/29.png" data-aos="zoom-in-up" alt="Celda de seguridad")
+          img(src="@/assets/curso/tema3/29.png" data-aos="zoom-in-up" alt="Figura 2 que explica las diversas celdas que debe tener un relleno de seguridad para confinar residuos peligrosos en el terreno, además debe contar con los sistemas correspondientes de acuerdo con lo indicado por el Ministerio de Ambiente, Vivienda y Desarrollo Territorial")
           figcaption.p-3.fw-normal.mt-3(style="background-color:#F6F6F6;") #[strong Nota.] Tomado de Benavides (1994) citado en Ministerio de Ambiente, Vivienda y Desarrollo Territorial (2007)- Gestión integral de residuos o desechos peligrosos. [Figura] p. 111.
     
     .col-11.m-auto.mt-5
