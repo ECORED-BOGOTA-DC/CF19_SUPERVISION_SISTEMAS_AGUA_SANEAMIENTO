@@ -22,7 +22,7 @@
     
     p(data-aos="fade-up") Antes de la puesta en práctica de una tecnología de disposición final se debe realizar una recolección de datos e información pertinente y veraz, que permita hacer un análisis sobre la situación actual de la comunidad que será beneficiada y de sus condiciones particulares.
 
-    p.mt-4(data-aos="zoom-in") Dentro de los datos que son requeridos para realizar un análisis previo se pueden contemplar los siguientes:
+    p.mt-4(data-aos="fade-up") Dentro de los datos que son requeridos para realizar un análisis previo se pueden contemplar los siguientes:
 
     .row.mt-5
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
@@ -109,13 +109,13 @@
             img(src="@/assets/curso/tema1/7.svg" data-aos="fade-right")
         .col-lg-8(style="place-self:center;")
           TabsA.tabs1.color-acento-contenido
-            .tarjeta.color-acento-botones.p-4(titulo="Disposición final" style="background-color:#E8E8E8;")
+            .tarjeta.color-acento-botones.p-4(titulo="Disposición <br>final" style="background-color:#E8E8E8;")
               p.mt-3(style="color:#12263F;") El área requerida para los rellenos sanitarios o la estrategia seleccionada para la disposición final de residuos sólidos: la información básica para obtener esta estimación es la población con servicio de recolección o el volumen de desechos sólidos recolectados (m#[sup(style="color:#12263F;") 3]/día), la tasa de crecimiento anual de la población y la densidad de los residuos sólidos compactados (tn/m#[sup(style="color:#12263F;") 3]).
             .tarjeta.color-acento-botones.p-4(titulo="Las variables" style="background-color:#E8E8E8;")
               p.mt-3(style="color:#12263F;") La determinación de las variables para los estudios: tanto la autoridad ambiental como las entidades territoriales solicitaron toda la información que logre consolidar estudios preliminares, topográficos, geológicos, geomorfológicos, de subsuelo, hidrogeológicos, hidrológicos y geotécnicos.
             .tarjeta.color-acento-botones.p-4(titulo="Análisis técnico" style="background-color:#E8E8E8;")
               p.mt-3(style="color:#12263F;") Información para los análisis técnicos: relacionados con el análisis de estabilidad y el análisis de riesgo.
-            .tarjeta.color-acento-botones.p-4(titulo="Diseños y cálculos" style="background-color:#E8E8E8;")
+            .tarjeta.color-acento-botones.p-4(titulo="Diseños y <br>cálculos" style="background-color:#E8E8E8;")
               p.mt-3(style="color:#12263F;") Diseños y cálculos: enmarcado en información que puede ser analizada antes y durante la ejecución de la disposición final de residuos sólidos, entre ellos se puede mencionar, diseños de llenado, cálculos de las celdas de disposición, del drenaje, de lixiviados, de gases, canales de aguas lluvias, entre otros.
     
     .col-lg-10.m-auto.mt-2
@@ -200,12 +200,12 @@
                 img(src='@/assets/curso/tema1/15.png')
     
       .col-lg-10.m-auto.mt-5
-        .row(style="background-color:#F6F6F6;border-radius:10px;box-shadow:rgba(0, 0, 0, 0.1) 0px 5px 9px 0px;")
+        .row.m-0(style="background-color:#F6F6F6;border-radius:10px;box-shadow:rgba(0, 0, 0, 0.1) 0px 5px 9px 0px;")
           .col-auto.p-md-0.d-flex.align-items-center
             figure
-              img(src="@/assets/curso/tema1/16.svg" data-aos="fade-right" style="margin-left: -47px;width: 100px;max-width: 100px;")
+              img(src="@/assets/curso/tema1/16.svg" data-aos="fade-right" style="margin-left: -27px;width: 100px;max-width: 100px;")
           .col.p-md-0
-            .p-4.ps-2
+            .p-4.ps.md-2
               h4(data-aos="fade-up") Nota importante
               p(data-aos="fade-up") La relevancia del conducto regular es seguirlo a total cabalidad en cualquier organización para que la responsabilidad del documento que vaya a ser transmitido o entregado sea compartida, para la gestión de la disposición de residuos peligrosos y no peligrosos se debe acatar el conducto regular para garantizar que la información que será entregada a los diferentes actores sea acorde con las políticas de la empresa, además de ello, presenten datos verificados, reales y correctos.
               p.mb-0(data-aos="fade-up") Información no verificada o aprobada por las líneas superiores puede generar multas, requerimientos y hasta sanciones de diferente índole, ver figura.

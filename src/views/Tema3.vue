@@ -429,8 +429,8 @@
                 p.text-small.text-white Para ampliar la información sobre los planes de manejo ambiental se invita a leer el documento, que se encuentra en el material complementario.
               .col-sm-auto
                 a.boton.color-primario(href="https://oab.ambientebogota.gov.co/?post_type=dlm_download&p=3825" target="_blank")
-                  span(style="color:#12263F !important;") Descargar
-                  i.fas.fa-file-download(style="color:#12263F !important;")
+                  span(style="color:#12263F !important;") Ir al enlace
+                  i.fas.fa-link(style="color:#12263F !important;")
     
     h3.subtitulo_cf(data-aos="fade-up")  Planes de contingencia
 

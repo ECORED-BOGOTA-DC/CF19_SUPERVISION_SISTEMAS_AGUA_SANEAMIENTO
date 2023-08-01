@@ -93,9 +93,9 @@
       .row(style="background: linear-gradient(180deg, rgba(222,222,222,1) 0%, rgba(255,255,255,1) 50%, rgba(222,222,222,1) 100%);border-radius:8px;")
         .col-auto.p-md-0.d-flex.align-items-center
           figure
-            img(src="@/assets/curso/tema2/8.svg" data-aos="fade-right" style="margin-left: -47px;width: 100px;max-width: 100px;")
+            img(src="@/assets/curso/tema2/8.svg" data-aos="fade-right" style="margin-left: -27px;width: 100px;max-width: 100px;")
         .col.p-md-0
-          .p-4.ps-4
+          .p-4.ps-md-4
             h5(data-aos="fade-up") Pérdida del valor del suelo
             p.mb-0(data-aos="fade-up") Debido a la adquisición de terrenos que realizan las empresas para poder disponer los residuos sólidos y los impactos generados por esta actividad, los predios que colindan con la organización tienden a perder valor catastral, afectando así a sus propietarios.
     
@@ -103,9 +103,9 @@
       .row(style="background: linear-gradient(180deg, rgba(222,222,222,1) 0%, rgba(255,255,255,1) 50%, rgba(222,222,222,1) 100%);border-radius:8px;")
         .col-auto.p-md-0.d-flex.align-items-center
           figure
-            img(src="@/assets/curso/tema2/9.svg" data-aos="fade-right" style="margin-left: -47px;width: 100px;max-width: 100px;")
+            img(src="@/assets/curso/tema2/9.svg" data-aos="fade-right" style="margin-left: -27px;width: 100px;max-width: 100px;")
         .col.p-md-0
-          .p-4.ps-4
+          .p-4.ps-md-4
             h5(data-aos="fade-up") Generación de empleo
             p.mb-0(data-aos="fade-up") Para realizar las diferentes actividades relacionadas con la disposición final de los residuos sólidos se requiere personal capacitado, por lo que aumenta el nivel de ingresos de la población.
     

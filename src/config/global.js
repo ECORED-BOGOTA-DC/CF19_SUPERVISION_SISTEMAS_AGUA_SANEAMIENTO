@@ -306,9 +306,9 @@ export default {
     },
     {
       referencia:
-        'Dirección de Prevención y Atención de Emergencias DPAE. (2009). Guía para elaborar planes de emergencia y contingencias. DPAE.',
+        'Alcaldía Mayor de Bogotá. (2013). Guía para elaborar planes de emergencia y contingencias.',
       link:
-        'https://bibliotecadigital.ccb.org.co/bitstream/handle/11520/14249/Gu%c3%ada%20para%20elaborar%20planes%20de%20emergencia.pdf?sequence=1&isAllowed=y',
+        'https://sig.sdis.gov.co/images/documentos_sig/procesos/gestion_de_talento_humano/documentos_asociados/20091203_guia_elaborar_planes_de_emergencia_y_contingencia.pdf',
     },
     {
       referencia:
