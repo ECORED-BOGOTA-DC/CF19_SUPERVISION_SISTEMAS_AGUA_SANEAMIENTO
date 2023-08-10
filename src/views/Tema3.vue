@@ -55,7 +55,7 @@
         .col-lg-7(style="place-self:center;")
           p(data-aos="fade-up") Las actividades que se deben realizar para la disposición final de residuos incluyen la manipulación de diferentes elementos que pueden generar un riesgo para el personal, es por ello que se debe velar por la seguridad de los trabajadores, para ello, se debe cumplir con toda la normatividad vigente en tema de seguridad y salud en el trabajo. 
           .cajon.cajon1.color-primario.p-4.mt-4(style="background-color:#F6F6F6;")
-            p.mb-0(data-aos="fade-up") De acuerdo con el Decreto 1748 (2017), se específica que hay que disponer de los elementos de seguridad industrial y salud ocupacional, para el personal operativo, administrativo y visitantes, acorde con lo establecido en el reglamento operativo y la normatividad vigente. 
+            p.mb-0(data-aos="fade-up") De acuerdo con el Decreto 1748 (2017), se especifica que hay que disponer de los elementos de seguridad industrial y salud ocupacional, para el personal operativo, administrativo y visitantes, acorde con lo establecido en el reglamento operativo y la normatividad vigente. 
           p.mt-4(data-aos="fade-up") Algunos de los elementos de protección que se deben considerar son los siguientes:
           .row.mt-4
             .col-lg.mb-4.mb-lg-0.col-md-6.text-center

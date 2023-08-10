@@ -41,7 +41,7 @@
             | Determinación de parámetros de diseño (información secundaria - estudios similares realizados).
           li(data-aos="fade-up")
             i.fas.fa-check-circle(style="color:#4DB1F0;")
-            | Cantidad de residuos recolectados (Tn/día o m3/día - registros de empresas de aseo).
+            | Cantidad de residuos recolectados (Tn/día o m#[sup 3]/día - registros de empresas de aseo).
           li(data-aos="fade-up")
             i.fas.fa-check-circle(style="color:#4DB1F0;")
             | Caracterización o composición de los residuos (% de componentes en los residuos- cuarteo).
@@ -216,7 +216,7 @@
         span Ejemplo de organigrama empresa de disposición final
       figure.mt-5
         img(src="@/assets/curso/tema1/17.svg" data-aos="zoom-in-up" alt="Representa el organigrama de una empresa, con el fin de que se lleve el conducto regular de la disposición final de manera correcta")
-        figcaption.p-3.fw-normal.mt-3(style="background-color:#F6F6F6;") #[strong Nota:] Tomado del Ministerio de Vivienda. (2017). Guía de planeación estratégica para el manejo de residuos sólidos de pequeños municipios en Colombia. [Figura]. Diapositiva 52.
+        figcaption.p-3.fw-normal.mt-3(style="background-color:#F6F6F6;") #[strong Nota:] tomado del Ministerio de Vivienda. (2017). Guía de planeación estratégica para el manejo de residuos sólidos de pequeños municipios en Colombia. [Figura]. Diapositiva 52.
     
     Separador.mt-5
 
@@ -391,7 +391,7 @@
             | Los de población con base en datos estadísticos de la Organización para la Cooperación y el Desarrollo Económico OCDE.
           li(data-aos="fade-up")
             i.fas.fa-check-circle(style="color:#4DB1F0;")
-            | El Winvent (anteriormente Invent), que corresponde a un programa de cálculo que cuenta con una base de datos de tipos de RESPEL generados en las diferentes actividades industriales (clasificadas de acuerdo con el código de la Clasificación Industrial Internacional Uniforme CIIU), y otra base de datos con índices de generación de residuos por número de empleados.
+            | El #[em Winvent] (anteriormente #[em Invent]), que corresponde a un programa de cálculo que cuenta con una base de datos de tipos de RESPEL generados en las diferentes actividades industriales (clasificadas de acuerdo con el código de la Clasificación Industrial Internacional Uniforme CIIU), y otra base de datos con índices de generación de residuos por número de empleados.
           li(data-aos="fade-up")
             i.fas.fa-check-circle(style="color:#4DB1F0;")
             | Control Integrado de la Contaminación Polución (IPC).

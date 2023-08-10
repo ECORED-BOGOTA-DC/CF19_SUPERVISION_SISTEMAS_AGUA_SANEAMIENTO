@@ -201,11 +201,11 @@
                 td.p-4 Bajo
                 td.p-4 La afectación que se realiza es irrelevante en comparación a los objetivos de la disposición de los residuos.
               tr(style="background-color:#F6FBFF;")
-                td.p-4.text-center.fw-bold 25b≥ < 50
+                td.p-4.text-center.fw-bold 25 ≥ y < 50
                 td.p-4 Moderado
                 td.p-4 La afectación que realiza la disposición de los residuos no precisa prácticas correctoras o protectoras intensivas.
               tr.bg-white
-                td.p-4.text-center.fw-bold 50 ≥ < 75
+                td.p-4.text-center.fw-bold 50 ≥ y < 75
                 td.p-4 Severo
                 td.p-4 La disposición de los residuos exige la recuperación de condiciones del medio afectado.
               tr(style="background-color:#F6FBFF;")

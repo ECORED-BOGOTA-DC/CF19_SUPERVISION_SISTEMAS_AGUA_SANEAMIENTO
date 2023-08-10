@@ -156,21 +156,21 @@ export default {
   },
   complementario: [
     {
-      tema: '2.Impactos ambientales',
+      tema: '2. Impactos ambientales',
       referencia:
         'Alcaldía Mayor de Bogotá. (2009). <em>Guía técnica para la elaboración de Planes de Manejo Ambiental (PMA).</em>',
       tipo: 'Guía técnica',
       link: 'https://oab.ambientebogota.gov.co/?post_type=dlm_download&p=3825',
     },
     {
-      tema: '2.Impactos ambientales',
+      tema: '2. Impactos ambientales',
       referencia:
         'Decreto 1220 de 2005. [Presidencia de la República de Colombia] Por el cual se reglamenta el Título VIII de la Ley 99 de 1993 sobre licencias ambientales. Abril 21 de 2005.',
       tipo: 'Documento',
       link: 'https://www.icbf.gov.co/cargues/avance/docs/decreto_1220_2005.htm',
     },
     {
-      tema: '1.Manejo de información de residuos',
+      tema: '1. Manejo de información de residuos',
       referencia:
         'Decreto 1784. [Ministerio de Vivienda, Ciudad y Territorio]. Por la cual se reglamenta el Decreto 1784 del 2 de noviembre de 2017 en lo relativo a las actividades complementarias de tratamiento y disposición final de residuos sólidos en el servicio público de aseo. Noviembre 2 2017.',
       tipo: 'Normatividad',
@@ -178,7 +178,7 @@ export default {
         'https://www.minvivienda.gov.co/tramites-y-servicios/consultas-publicas/por-la-cual-se-reglamenta-el-decreto-1784-del-2-de-noviembre-de-2017-en-lo-relativo-las-actividades-complementarias-de-tratamiento-y-disposicion-final',
     },
     {
-      tema: '3.Técnicas de disposición final',
+      tema: '3. Técnicas de disposición final',
       referencia:
         'Alcaldía Mayor de Bogotá. (2013). Guía para elaborar planes de emergencia y contingencias.',
       tipo: 'Guía',
@@ -186,7 +186,7 @@ export default {
         'https://sig.sdis.gov.co/images/documentos_sig/procesos/gestion_de_talento_humano/documentos_asociados/20091203_guia_elaborar_planes_de_emergencia_y_contingencia.pdf',
     },
     {
-      tema: '2.Impactos ambientales',
+      tema: '2. Impactos ambientales',
       referencia:
         'Ministerio del Ambiente Perú. (2012). <em>Guía para el diseño, construcción, operación, mantenimiento y monitoreo de relleno sanitario mecanizado</em>. MINAM.',
       tipo: 'Guía',
@@ -194,7 +194,7 @@ export default {
         'https://sinia.minam.gob.pe/documentos/guia-diseno-construccion-operacion-mantenimiento-monitoreo-relleno',
     },
     {
-      tema: '3.Técnicas de disposición final',
+      tema: '3. Técnicas de disposición final',
       referencia:
         'Ministerio de Ambiente, Vivienda y Desarrollo Territorial. (2007). <em>Gestión integral de residuos o desechos peligrosos. Bases conceptuales</em>. Dirección de desarrollo sectorial sostenible.',
       tipo: 'Documento',
@@ -300,13 +300,13 @@ export default {
     },
     {
       referencia:
-        'Decreto 838 de 2005. [Presidencia de la República de Colombia].. Por el cual se modifica el Decreto 1713 de 2002 sobre disposición final de residuos sólidos y se dictan otras disposiciones. Marzo 23 de 2005.',
+        'Decreto 838 de 2005. [Presidencia de la República de Colombia]. Por el cual se modifica el Decreto 1713 de 2002 sobre disposición final de residuos sólidos y se dictan otras disposiciones. Marzo 23 de 2005.',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=16123',
     },
     {
       referencia:
-        'Alcaldía Mayor de Bogotá. (2013). Guía para elaborar planes de emergencia y contingencias.',
+        'Alcaldía Mayor de Bogotá. (2013). Guía para elaborar planes de emergencia y contingencias. ',
       link:
         'https://sig.sdis.gov.co/images/documentos_sig/procesos/gestion_de_talento_humano/documentos_asociados/20091203_guia_elaborar_planes_de_emergencia_y_contingencia.pdf',
     },
