@@ -535,7 +535,7 @@
                 h4.mb-1.text-white Guía para elaborar planes de emergencia y contingencia
                 p.text-small.text-white Para ampliar la información de planes de emergencia y contingencia se invita a consultar el documento, que se encuentra en el material complementario:
               .col-sm-auto
-                a.boton.color-primario(href="https://bibliotecadigital.ccb.org.co/login" target="_blank")
+                a.boton.color-primario(href="https://sig.sdis.gov.co/images/documentos_sig/procesos/gestion_de_talento_humano/documentos_asociados/20091203_guia_elaborar_planes_de_emergencia_y_contingencia.pdf" target="_blank")
                   span(style="color:#12263F !important;") Ir al enlace
                   i.fas.fa-link(style="color:#12263F !important;")
     
