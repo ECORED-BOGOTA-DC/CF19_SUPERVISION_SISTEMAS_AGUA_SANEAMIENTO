@@ -156,6 +156,21 @@ export default {
   },
   complementario: [
     {
+      tema: 'Introducción',
+      referencia:
+        'El Tiempo (2022). Alarmantes cifras en Colombia por rellenos sanitarios [video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=1d5wV3apgxw&ab_channel=ELTIEMPO',
+    },
+    {
+      tema: '1. Manejo de información de residuos',
+      referencia:
+        'Decreto 1784. [Ministerio de Vivienda, Ciudad y Territorio]. Por la cual se reglamenta el Decreto 1784 del 2 de noviembre de 2017 en lo relativo a las actividades complementarias de tratamiento y disposición final de residuos sólidos en el servicio público de aseo. Noviembre 2 2017.',
+      tipo: 'Normatividad',
+      link:
+        'https://www.minvivienda.gov.co/tramites-y-servicios/consultas-publicas/por-la-cual-se-reglamenta-el-decreto-1784-del-2-de-noviembre-de-2017-en-lo-relativo-las-actividades-complementarias-de-tratamiento-y-disposicion-final',
+    },
+    {
       tema: '2. Impactos ambientales',
       referencia:
         'Alcaldía Mayor de Bogotá. (2009). <em>Guía técnica para la elaboración de Planes de Manejo Ambiental (PMA).</em>',
@@ -170,22 +185,6 @@ export default {
       link: 'https://www.icbf.gov.co/cargues/avance/docs/decreto_1220_2005.htm',
     },
     {
-      tema: '1. Manejo de información de residuos',
-      referencia:
-        'Decreto 1784. [Ministerio de Vivienda, Ciudad y Territorio]. Por la cual se reglamenta el Decreto 1784 del 2 de noviembre de 2017 en lo relativo a las actividades complementarias de tratamiento y disposición final de residuos sólidos en el servicio público de aseo. Noviembre 2 2017.',
-      tipo: 'Normatividad',
-      link:
-        'https://www.minvivienda.gov.co/tramites-y-servicios/consultas-publicas/por-la-cual-se-reglamenta-el-decreto-1784-del-2-de-noviembre-de-2017-en-lo-relativo-las-actividades-complementarias-de-tratamiento-y-disposicion-final',
-    },
-    {
-      tema: '3. Técnicas de disposición final',
-      referencia:
-        'Alcaldía Mayor de Bogotá. (2013). Guía para elaborar planes de emergencia y contingencias.',
-      tipo: 'Guía',
-      link:
-        'https://sig.sdis.gov.co/images/documentos_sig/procesos/gestion_de_talento_humano/documentos_asociados/20091203_guia_elaborar_planes_de_emergencia_y_contingencia.pdf',
-    },
-    {
       tema: '2. Impactos ambientales',
       referencia:
         'Ministerio del Ambiente Perú. (2012). <em>Guía para el diseño, construcción, operación, mantenimiento y monitoreo de relleno sanitario mecanizado</em>. MINAM.',
@@ -196,17 +195,18 @@ export default {
     {
       tema: '3. Técnicas de disposición final',
       referencia:
+        'Alcaldía Mayor de Bogotá. (2013). Guía para elaborar planes de emergencia y contingencias.',
+      tipo: 'Guía',
+      link:
+        'https://sig.sdis.gov.co/images/documentos_sig/procesos/gestion_de_talento_humano/documentos_asociados/20091203_guia_elaborar_planes_de_emergencia_y_contingencia.pdf',
+    },
+    {
+      tema: '3. Técnicas de disposición final',
+      referencia:
         'Ministerio de Ambiente, Vivienda y Desarrollo Territorial. (2007). <em>Gestión integral de residuos o desechos peligrosos. Bases conceptuales</em>. Dirección de desarrollo sectorial sostenible.',
       tipo: 'Documento',
       link:
         'https://www.corpamag.gov.co/archivos/tramites/RESPEL/Gestion_Integral_RESPEL_Bases_Conceptuales.pdf',
-    },
-    {
-      tema: 'Introducción',
-      referencia:
-        'El Tiempo (2022). <em>Alerta sanitaria y ambiental en rellenos sanitarios del país</em> [video]. YouTube.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=1d5wV3apgxw&ab_channel=ELTIEMPO',
     },
   ],
   glosario: [

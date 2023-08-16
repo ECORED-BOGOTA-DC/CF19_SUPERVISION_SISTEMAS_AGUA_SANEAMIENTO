@@ -535,7 +535,7 @@
                 h4.mb-1.text-white Guía para elaborar planes de emergencia y contingencia
                 p.text-small.text-white Para ampliar la información de planes de emergencia y contingencia se invita a consultar el documento, que se encuentra en el material complementario:
               .col-sm-auto
-                a.boton.color-primario(href="https://bibliotecadigital.ccb.org.co/bitstream/handle/11520/14249/Gu%c3%ada%20para%20elaborar%20planes%20de%20emergencia.pdf?sequence=1&isAllowed=y" target="_blank")
+                a.boton.color-primario(href="https://bibliotecadigital.ccb.org.co/login" target="_blank")
                   span(style="color:#12263F !important;") Ir al enlace
                   i.fas.fa-link(style="color:#12263F !important;")
     
